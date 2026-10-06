@@ -16,21 +16,26 @@ Envoy uses exactly three External nodes in the initial configuration:
 2. Grok
 3. Sakana
 
-All three must be started in clean sessions.
+All three must be started in persistent working chats with clean Envoy initialization.
 
 No existing conversation context is part of the initial Envoy External configuration.
 
-## 3. Clean session
+## 3. Clean Envoy initialization
 
-A clean External session means:
+The three External nodes operate in persistent working chats.
 
-- a new conversation;
-- no prior Envoy conversation history;
-- no prior instructions from the Envoy project;
-- no imported conclusions from other External nodes;
-- no access to other External responses before the independent phase.
+A clean Envoy initialization means:
 
-The same initial input should be used for all three nodes unless the experiment explicitly specifies otherwise.
+- the chat is not required to be newly created for each task;
+- no prior Envoy project context is assumed at initialization;
+- no prior Envoy instructions are assumed at initialization;
+- no imported conclusions from other External nodes are assumed at initialization;
+- no other External responses are available before the independent phase;
+- after initialization, the chat may accumulate Envoy context and this accumulated context remains part of the External working state unless explicitly revised.
+
+The same initial bootstrap input should be used for all three nodes unless the experiment explicitly specifies otherwise.
+
+Historical material from other projects is not part of the Envoy External context unless explicitly designated as a source.
 
 ## 4. Separation from previous projects
 
@@ -93,8 +98,24 @@ Any structural change appearing after interaction must be distinguishable from w
 
 ## 8. Required identification
 
+## 8.1. Message numbering
+
+Every External response, including the bootstrap acknowledgement, must begin with a sequential message number on the first separate line:
+
+`MS<number>`
+
+The first response in this persistent External chat is `MS1`.
+
+Each subsequent response increments the number by one:
+`MS2`, `MS3`, `MS4`, ...
+
+The counter is local to this External chat. It is not synchronized with other External nodes.
+
+Numbers must not be skipped, reused, or reset during normal persistent work.
+
 Every External response begins with:
 
+MS<number>
 [EXTERNAL]
 Model: <model name>
 

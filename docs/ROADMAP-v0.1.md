@@ -46,26 +46,34 @@ Exit condition:
 
 The documents are internally consistent and their provisional status is explicit.
 
-## 4. Phase 1 — Clean External setup
+## 4. Phase 1 — External initialization
 
-Create exactly three clean External sessions:
+Initialize exactly three persistent External working chats:
 
 - Kimi
 - Grok
 - Sakana
 
-Each session must begin without prior Envoy conversation history.
+Each chat must begin with clean Envoy initialization:
+
+- no prior Envoy project context is assumed;
+- no prior Envoy instructions are assumed;
+- no other External responses are available before the independent phase.
+
+After initialization, each chat remains persistent and may accumulate Envoy working context.
 
 Record:
 
-- model identity;
-- session identity where available;
-- initial input;
+- actual model identity;
+- chat/session identity where available;
+- bootstrap input;
+- initialization response;
+- message number;
 - timestamp where available.
 
 Exit condition:
 
-All three External sessions are ready and provenance can be preserved.
+All three External nodes are initialized, their provenance can be preserved, their independent starting states are recorded, and message numbering is established.
 
 ## 5. Phase 2 — Independent field reconnaissance
 
@@ -269,4 +277,4 @@ NEXT ACTION:
 
 Complete documentation baseline.
 
-Then establish the three clean External sessions and run the independent field-selection reconnaissance.
+Then initialize the three persistent External working chats and run the independent field-selection reconnaissance.
