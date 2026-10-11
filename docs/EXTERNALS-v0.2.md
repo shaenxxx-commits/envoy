@@ -1,6 +1,7 @@
 # ENVOY — EXTERNALS v0.2
 
 Версия: v0.2. Дата: 2026-10-09.
+Rev: 2026-10-11 — уточнения по замечаниям внешних (§4.1, §8.1).
 Заменяет: EXTERNALS-v0.1.md.
 Status: PROVISIONAL.
 
@@ -127,21 +128,23 @@ The interaction order must be recorded.
 
 ### 8.1 Message numbering
 
-MS<number> is the Envoy-wide numbering rule for all
-working chats, including the Lead. See
-meta/operator-preferences.md.
+MS<number> is the numbering rule for every
+persistent working chat in Envoy (External nodes
+and the Lead). See meta/operator-preferences.md.
+
+Numbering is local, not global:
+
+- Each chat maintains its own counter.
+- Counters are not synchronized across chats.
+- The same number (e.g. MS7) may exist in
+  multiple chats simultaneously.
 
 Every External response, including the bootstrap
-acknowledgement, must begin with a sequential
-message number on the first separate line:
-
-MS<number>
+acknowledgement, begins with MS<number> on the
+first separate line.
 
 The first response in a persistent External chat
 is MS1. Each subsequent response increments by one.
-
-The counter is local to each chat. It is not
-synchronized with other chats.
 
 Numbers must not be skipped, reused, or reset
 during normal persistent work.
@@ -153,6 +156,11 @@ MS<number>
 Model: <model name>
 
 Only the model identity is required.
+
+Aggregation rule: whenever the Lead aggregates
+responses from multiple nodes, node prefix is
+mandatory (e.g. GROK-MS5, KIMI-MS6, NAMAZU-MS5).
+Bare MS<number> refers to the local chat only.
 
 ### 8.2 Lead numbering
 
@@ -256,8 +264,8 @@ SUPERSEDES: EXTERNALS-v0.1
 ## 4.1 Persistent chat as historical carrier
 
 External persistent chats preserve Envoy context
-across runs. This is treated as a property of the
-configuration, not an accident.
+across runs. This is a property of the configuration,
+not an accident.
 
 Consequence:
 
@@ -265,17 +273,21 @@ Consequence:
   through the same External chat.
 - A recovered response is archived as
   archived-external, not as raw-moment.
-- archived-external means: the External node
-  re-supplies or confirms its earlier response
-  at a stated date. It is one layer below a
-  raw output captured at the moment of the run
-  and above a Lead reconstruction.
 
-Provenance markers:
+Binary provenance boundary:
 
-- raw-external — captured at the run moment.
-- archived-external — re-supplied by the node later.
-- Lead reconstruction — never used for facts.
+- raw-external — verbatim, captured at the run
+  moment. Highest layer.
+- archived-external — verbatim, re-supplied by the
+  node from its persistent chat at a stated date.
+  Requires: node, chat, MS<number>, date of
+  re-supply.
+- reconstructed-by-lead — Lead paraphrase, summary
+  or memory. Never used for facts. Never carries
+  archived-external or raw-external marks.
+- UNKNOWN — the node no longer holds a verbatim
+  response (e.g. only a conversation summary).
 
-If a run's raw output was never captured and the
-node no longer holds it, the run records UNKNOWN.
+Mixed layers are forbidden. A response is either
+verbatim from the node (raw or archived) or it is
+not External output at all.
