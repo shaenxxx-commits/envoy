@@ -52,3 +52,13 @@ UDRP remains a possible future field and was not rejected as a research object.
 ## Next Observation
 
 Reconnaissance of the current Kleros architecture, trajectory and observable field.
+
+## Raw External Outputs
+
+- Grok 4.5 — MS2 — grok-MS2.md
+- Kimi K2 Thinking — MS2 — kimi-MS2.md
+- Namazu — UNKNOWN — архив недоступен
+
+Raw responses for Grok and Kimi were re-supplied by the External nodes
+from their persistent chats (archived-external). They were not captured
+at the run moment. Provenance note in RAW-EXTERNALS.md.

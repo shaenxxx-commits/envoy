@@ -49,3 +49,13 @@ Proceed to a reproducibility / sensor test before analysing field patterns.
 ## Next Observation
 
 Determine whether Envoy can construct a reproducible minimum sensor for real Kleros V2 disputes.
+
+## Raw External Outputs
+
+- Grok 4.5 — MS4 — grok-MS4.md
+- Kimi K2 Thinking — MS4 — kimi-MS4.md
+- Namazu — UNKNOWN — архив недоступен
+
+Raw responses for Grok and Kimi were re-supplied by the External nodes
+from their persistent chats (archived-external). They were not captured
+at the run moment. Provenance note in RAW-EXTERNALS.md.
