@@ -1,6 +1,6 @@
 # HANDOFF CURRENT — ENVOY
 
-**Дата:** 2026-10-09
+**Дата:** 2026-10-11
 **Статус:** актуальный
 **Основание:** handoff-protocol LAB (адаптируется)
 
@@ -9,7 +9,9 @@
 
 ## CURRENT STATE
 
-    HEAD: 4ac6959 (main = origin/main)
+    HEAD: a3d4348 (main = origin/main) — после этого
+      коммита записываются meta/handoff-protocol.md
+      и meta/changelog.md; их SHA — в следующем handoff.
     ACTIVE PHASE: documentation-coordination
     STATUS: open
     LAST COMPLETED: Run 004 (Kleros on-chain sensor, YELLOW)
@@ -20,19 +22,21 @@
     KNOWN UNKNOWNs:
       - topic0 не проверен (единственный источник — Namazu).
       - Работает ли публичный RPC из nova — не проверено.
-      - Namazu vs Sakana в EXTERNALS-v0.1 — рассинхрон.
-      - Run 001/002 — raw внешних не сохранён.
+      - Расхождение MS-нумерации Grok: в persistent-чате
+        baseline = MS5, в репо grok-MS4.md. Причина UNKNOWN.
       - Phase 4 (filter assessment) не оформлена.
+      - docs/ROLES-v0.1.md — STATUS: PROVISIONAL,
+        не обновлён после выбора поля.
     PENDING DECISION:
-      - Ревизия EXTERNALS-v0.1 → v0.2
-        (Namazu = Sakana, MS<N> — общее правило).
-      - 001/002 — восстановить raw или пометить UNKNOWN.
-      - Ревизия docs: ввести meta-слой, coordination-правила.
-    LAST RESPONSE NUMBER: MS25
+      - On-chain шаг (Next Observation из 004).
+      - Phase 4 — оценка фильтра по 001.
+      - docs/ROLES — обновление статуса.
+    LAST RESPONSE NUMBER: MS61 (обновлять по каждому ответу)
 
 ## Repository
 
-- Envoy: 4ac6959 (main = origin/main)
+- Envoy: a3d4348 (main = origin/main)
+  (+ handoff-protocol.md, changelog.md — в след. коммите)
 - LAB (external source, метод координации):
   3abc90b (main-working)
 
@@ -45,10 +49,13 @@
 
 ## Documentation
 
-- docs/: DDA-v0.1, FIELD-LOG-v0.1, FIELD-SELECTION-v0.1,
-  ROLES-v0.1, ROADMAP-v0.1, EXTERNALS-v0.1,
-  EXTERNAL-BOOTSTRAP-v0.1, EXTERNAL-BOOTSTRAP-v0.2
-- meta/: создаётся (этот файл — первый)
+- docs/: DDA-v0.1, FIELD-SELECTION-v0.1,
+  ROLES-v0.1, ROADMAP-v0.1,
+  EXTERNAL-BOOTSTRAP-v0.1, EXTERNAL-BOOTSTRAP-v0.2,
+  EXTERNALS-v0.1 (superseded), EXTERNALS-v0.2,
+  FIELD-LOG-v0.1 (superseded), FIELD-LOG-v0.2
+- meta/: handoff-current.md, operator-preferences.md,
+  handoff-protocol.md, changelog.md
 
 ## Роли
 
@@ -58,17 +65,20 @@
 
 ## Что не сделано
 
-- Handoff-protocol для Envoy не оформлен.
-- Operator-preferences для Envoy не оформлен.
-- Coordination-правила (MS<N>, пометки утверждений)
-  не в docs.
-- Формат raw-архива 001/002 не закрыт.
+- Phase 4 (filter assessment) по 001 не оформлена.
+- docs/ROLES-v0.1.md — статус PROVISIONAL не снят.
+- On-chain шаг (Next Observation 004) не выполнен.
+- field/003 — расхождение MS-нумерации Grok
+  зафиксировано, но причина UNKNOWN.
 
 ## Где смотреть
 
 - docs/DDA-v0.1.md — метод
-- docs/FIELD-LOG-v0.1.md — правила ведения Run
+- docs/FIELD-LOG-v0.2.md — правила ведения Run
 - docs/ROLES-v0.1.md — роли
-- docs/EXTERNALS-v0.1.md — конфигурация внешних
+- docs/EXTERNALS-v0.2.md — конфигурация внешних
+- meta/handoff-protocol.md — протокол передачи ведущего
+- meta/operator-preferences.md — правила работы с Оператором
+- meta/changelog.md — история версий
 - field/ — прогоны
 - LAB (/home/shaen/nova-cortex-lab) — источник метода координации
