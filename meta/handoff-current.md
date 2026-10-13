@@ -9,22 +9,23 @@
 
 ## CURRENT STATE
 
-    HEAD: 79f9cb0 (main = origin/main)
+    HEAD: c6f146f (main = origin/main)
     ACTIVE PHASE: field-observation
     STATUS: open
-    LAST COMPLETED: Run 012 (Court x time, three product waves)
+    LAST COMPLETED: Run 013 (Court 34 = general-purpose, not Agentic-specific)
     WORKING HYPOTHESES:
-      - On-chain sensor V2 рабочий из nova (Runs 005-012).
+      - On-chain sensor V2 рабочий из nova (Runs 005-013).
       - 296 disputes через DisputeResolver.
-      - Три волны продуктов в истории поля:
-        2025 Q2 court 29; 2026 Q2 court 32; 2026 Q3 court 34.
-      - Всплеск последних 2 мес = court 34 (129 из 146
-        в 2026-Q3).
+      - Три волны: 2025 Q2 court 29; 2026 Q2 court 32;
+        2026 Q3 court 34 (129 из 146).
+      - Court 34 = general-purpose court, не Agentic-specific.
+      - External claim Run 002 (court 34 = Agentic Commerce)
+        не подтверждён MetaEvidence.
       - Барьер Run 004 был свойством среды внешних.
     KNOWN UNKNOWNs:
-      - Официальное имя court 34.
-      - Природа court 34: реально ли Agentic Commerce
-        (по External Run 002, не перепроверено).
+      - Кто/что драйвит всплеск court 34 в 2026-Q3
+        (единый шаблон? policyURI? пользователь?).
+      - Официальное имя court 34 в документации Kleros.
       - Связаны ли courts 29 и 32 (обе Argentina).
       - Текущий статус поля (активно / приостановлено).
       - Расхождение MS-нумерации Grok: baseline MS5
@@ -32,14 +33,15 @@
       - Phase 4 (filter assessment) не оформлена.
       - docs/ROLES-v0.1.md — STATUS: PROVISIONAL.
     PENDING DECISION:
-      - Идентификация court 34 (Run 013).
+      - Полная классификация MetaEvidence 135 court 34
+        disputes — единый ли шаблон.
       - Phase 4 — оценка фильтра по 001.
       - docs/ROLES — обновление статуса.
-    LAST RESPONSE NUMBER: MS139 (обновлять по каждому ответу)
+    LAST RESPONSE NUMBER: MS147 (обновлять по каждому ответу)
 
 ## Repository
 
-- Envoy: 79f9cb0 (main = origin/main)
+- Envoy: c6f146f (main = origin/main)
 - LAB (external source, метод координации):
   3abc90b (main-working)
 
@@ -57,6 +59,7 @@
 - 010 — Descriptive summary — CLOSED — RUN + SYNTHESIS + COMMANDS — span ~697 days, 0.42/day
 - 011 — Arbitrable identity — CLOSED — RUN + SYNTHESIS + COMMANDS + COURTS — DisputeResolver, 7 courts
 - 012 — Court x time — CLOSED — RUN + SYNTHESIS — three product waves, court 34 spike
+- 013 — Court 34 identity — CLOSED — RUN + SYNTHESIS + SAMPLES — general-purpose court
 
 ## Documentation
 
@@ -78,7 +81,7 @@
 
 - Phase 4 (filter assessment) по 001 не оформлена.
 - docs/ROLES-v0.1.md — статус PROVISIONAL не снят.
-- Court 34 не идентифицирован.
+- Полная классификация MetaEvidence court 34 не сделана.
 - field/003 — расхождение MS-нумерации Grok
   зафиксировано, но причина UNKNOWN.
 

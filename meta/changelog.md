@@ -231,3 +231,16 @@
   Основание: Next Observation Run 011.
   Открыто: идентификация court 34 (Run 002 предполагал
   Agentic Commerce Court, не перепроверено).
+
+## field/013-kleros-court34-identity/
+
+- 2026-10-14 — Run 013 закрыт.
+  RUN.md, SYNTHESIS.md, SAMPLES.md.
+  Идентификация court 34.
+  10 сэмплов MetaEvidence: heterogeneous disputes
+  (Image Generation, Services, Oracle,
+  prediction_market, Agentic Commerce x1).
+  Court 34 = general-purpose court, не Agentic-specific.
+  Расхождение с Run 002 (External claims): не подтверждено.
+  Основание: Next Observation Run 012.
+  Открыто: кто драйвит всплеск 2026-Q3 (общий шаблон?).
