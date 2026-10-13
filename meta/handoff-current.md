@@ -9,37 +9,37 @@
 
 ## CURRENT STATE
 
-    HEAD: 6b8554f (main = origin/main)
+    HEAD: 8ed7ad0 (main = origin/main)
     ACTIVE PHASE: field-observation
     STATUS: open
-    LAST COMPLETED: Run 010 (Descriptive summary, 296 disputes, ~697 days)
+    LAST COMPLETED: Run 011 (Arbitrable identity = DisputeResolver, 7 courts)
     WORKING HYPOTHESES:
-      - On-chain sensor V2 рабочий из nova (Run 005-008, GREEN).
-      - Полное поле V2: 296 disputes, IDs 0..295,
-        без пропусков, один arbitrable 0xb5526d...4323
-        (Runs 006-008).
-      - Граница поля: между блоками 214M и 254M.
-      - Барьер Run 004 был свойством среды внешних,
-        не поля.
+      - On-chain sensor V2 рабочий из nova (Runs 005-011).
+      - Полное поле V2: 296 disputes, IDs 0..295.
+      - Единственный arbitrable 0xb5526d...4323 =
+        DisputeResolver (generic Kleros tool, ERC-792).
+      - 7 courts: 1, 3, 24, 29, 31, 32, 34.
+      - Court 34: 135, court 29: 87, court 32: 36.
+      - Барьер Run 004 был свойством среды внешних.
     KNOWN UNKNOWNs:
-      - Совпадает ли start block V2 (274 289 504)
-        с блоком деплоя контракта или позже.
-      - Существовали ли другие arbitrable ранее.
+      - Какой court драйвит всплеск в последние
+        2 месяца (не разбито по court x time).
+      - Реален ли court 34 = Agentic Commerce Court
+        (по External Run 002, не перепроверено).
       - Текущий статус поля (активно / приостановлено).
       - Расхождение MS-нумерации Grok: baseline MS5
         в чате vs grok-MS4.md в репо. Причина UNKNOWN.
       - Phase 4 (filter assessment) не оформлена.
       - docs/ROLES-v0.1.md — STATUS: PROVISIONAL.
     PENDING DECISION:
-      - Направление интерпретации корпуса
-        (требует решения Architect).
+      - Categorized summary (court x time) — Run 012.
       - Phase 4 — оценка фильтра по 001.
       - docs/ROLES — обновление статуса.
-    LAST RESPONSE NUMBER: MS119 (обновлять по каждому ответу)
+    LAST RESPONSE NUMBER: MS135 (обновлять по каждому ответу)
 
 ## Repository
 
-- Envoy: 6b8554f (main = origin/main)
+- Envoy: 8ed7ad0 (main = origin/main)
 - LAB (external source, метод координации):
   3abc90b (main-working)
 
@@ -55,6 +55,7 @@
 - 008 — Range probe — CLOSED — RUN + SYNTHESIS + COMMANDS + DISPUTES — 296 disputes, IDs 0..295
 - 009 — Full corpus — CLOSED — RUN + SYNTHESIS + COMMANDS + DISPUTES — ID->block map, start block 274 289 504
 - 010 — Descriptive summary — CLOSED — RUN + SYNTHESIS + COMMANDS — span ~697 days, 0.42/day
+- 011 — Arbitrable identity — CLOSED — RUN + SYNTHESIS + COMMANDS + COURTS — DisputeResolver, 7 courts
 
 ## Documentation
 
@@ -76,7 +77,7 @@
 
 - Phase 4 (filter assessment) по 001 не оформлена.
 - docs/ROLES-v0.1.md — статус PROVISIONAL не снят.
-- Направление интерпретации корпуса не выбрано.
+- Categorized summary (court x time) не сделан.
 - field/003 — расхождение MS-нумерации Grok
   зафиксировано, но причина UNKNOWN.
 

@@ -204,3 +204,16 @@
   Никакой интерпретации, только описание.
   Основание: Next Observation Run 009.
   Открыто: направление интерпретации (требует решения Architect).
+
+## field/011-kleros-arbitrable-identity/
+
+- 2026-10-13 — Run 011 закрыт.
+  RUN.md, SYNTHESIS.md, COMMANDS.md, COURTS.md.
+  Идентификация единственного arbitrable:
+  0xb5526d...4323 = DisputeResolver (Kleros).
+  ERC-792 Arbitrable, не токен, не прокси.
+  Распределение по 7 courts (IDs 1, 3, 24, 29, 31, 32, 34).
+  Court 34: 135 disputes, court 29: 87, court 32: 36.
+  MetaEvidence — испаноязычный consumer шаблон.
+  Основание: Next Observation Run 010.
+  Открыто: categorized summary (court x time).
