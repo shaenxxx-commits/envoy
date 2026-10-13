@@ -179,3 +179,15 @@
   Граница поля: между 214M и 254M.
   Основание: второй probe из Next Observation Run 006.
   Открыто: точный start block; блоки для IDs 0..117.
+
+## field/009-kleros-full-corpus/
+
+- 2026-10-13 — Run 009 закрыт.
+  RUN.md, SYNTHESIS.md, COMMANDS.md, DISPUTES.md.
+  Полное извлечение корпуса V2.
+  296 disputes, IDs 0..295 без пропусков.
+  Start block (id 0): 274 289 504.
+  End block (id 295): 514 090 528.
+  Один arbitrable 0xb5526d...4323.
+  Основание: Next Observation Run 008.
+  Открыто: descriptive summary корпуса.

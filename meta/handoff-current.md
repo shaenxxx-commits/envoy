@@ -9,10 +9,10 @@
 
 ## CURRENT STATE
 
-    HEAD: 82276f3 (main = origin/main)
+    HEAD: 7762cd0 (main = origin/main)
     ACTIVE PHASE: field-observation
     STATUS: open
-    LAST COMPLETED: Run 008 (Range probe, full V2 field bounded, 296 disputes)
+    LAST COMPLETED: Run 009 (Full corpus extraction, 296 disputes, ID->block)
     WORKING HYPOTHESES:
       - On-chain sensor V2 рабочий из nova (Run 005-008, GREEN).
       - Полное поле V2: 296 disputes, IDs 0..295,
@@ -22,25 +22,23 @@
       - Барьер Run 004 был свойством среды внешних,
         не поля.
     KNOWN UNKNOWNs:
-      - Точный start block V2 поля (между 214M и 254M).
-      - Block numbers для IDs 0..117 (диапазоны известны,
-        точные блоки не извлечены).
+      - Совпадает ли start block V2 (274 289 504)
+        с блоком деплоя контракта или позже.
       - Существовали ли другие arbitrable ранее.
+      - Текущий статус поля (активно / приостановлено).
       - Расхождение MS-нумерации Grok: baseline MS5
         в чате vs grok-MS4.md в репо. Причина UNKNOWN.
       - Phase 4 (filter assessment) не оформлена.
       - docs/ROLES-v0.1.md — STATUS: PROVISIONAL.
     PENDING DECISION:
-      - Точный start block V2 (probe 214M..254M).
-      - Извлечь блоки для IDs 0..117.
-      - Первый descriptive summary корпуса.
+      - Descriptive summary корпуса (Run 010).
       - Phase 4 — оценка фильтра по 001.
       - docs/ROLES — обновление статуса.
-    LAST RESPONSE NUMBER: MS112 (обновлять по каждому ответу)
+    LAST RESPONSE NUMBER: MS115 (обновлять по каждому ответу)
 
 ## Repository
 
-- Envoy: 82276f3 (main = origin/main)
+- Envoy: 7762cd0 (main = origin/main)
 - LAB (external source, метод координации):
   3abc90b (main-working)
 
@@ -54,6 +52,7 @@
 - 006 — Corpus expansion — CLOSED — RUN + SYNTHESIS + COMMANDS + DISPUTES — 178 disputes — GREEN
 - 007 — Arbitrable probe — CLOSED — RUN + SYNTHESIS + COMMANDS — single arbitrable in range
 - 008 — Range probe — CLOSED — RUN + SYNTHESIS + COMMANDS + DISPUTES — 296 disputes, IDs 0..295
+- 009 — Full corpus — CLOSED — RUN + SYNTHESIS + COMMANDS + DISPUTES — ID->block map, start block 274 289 504
 
 ## Documentation
 
@@ -75,7 +74,7 @@
 
 - Phase 4 (filter assessment) по 001 не оформлена.
 - docs/ROLES-v0.1.md — статус PROVISIONAL не снят.
-- Точный start block V2 и блоки IDs 0..117 не извлечены.
+- Descriptive summary корпуса (Run 010) не сделан.
 - field/003 — расхождение MS-нумерации Grok
   зафиксировано, но причина UNKNOWN.
 
