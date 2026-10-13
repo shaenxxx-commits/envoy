@@ -191,3 +191,16 @@
   Один arbitrable 0xb5526d...4323.
   Основание: Next Observation Run 008.
   Открыто: descriptive summary корпуса.
+
+## field/010-kleros-descriptive-summary/
+
+- 2026-10-13 — Run 010 закрыт.
+  RUN.md, SYNTHESIS.md, COMMANDS.md.
+  Descriptive summary корпуса V2.
+  Span: 2024-11-14 .. 2026-10-12 (~697 дней).
+  Плотность: 0.42 disputes/день.
+  Кластеров (блоков с >1 dispute): 11.
+  48% всех disputes — в последних 20M блоков.
+  Никакой интерпретации, только описание.
+  Основание: Next Observation Run 009.
+  Открыто: направление интерпретации (требует решения Architect).

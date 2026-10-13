@@ -9,10 +9,10 @@
 
 ## CURRENT STATE
 
-    HEAD: 7762cd0 (main = origin/main)
+    HEAD: 6b8554f (main = origin/main)
     ACTIVE PHASE: field-observation
     STATUS: open
-    LAST COMPLETED: Run 009 (Full corpus extraction, 296 disputes, ID->block)
+    LAST COMPLETED: Run 010 (Descriptive summary, 296 disputes, ~697 days)
     WORKING HYPOTHESES:
       - On-chain sensor V2 рабочий из nova (Run 005-008, GREEN).
       - Полное поле V2: 296 disputes, IDs 0..295,
@@ -31,14 +31,15 @@
       - Phase 4 (filter assessment) не оформлена.
       - docs/ROLES-v0.1.md — STATUS: PROVISIONAL.
     PENDING DECISION:
-      - Descriptive summary корпуса (Run 010).
+      - Направление интерпретации корпуса
+        (требует решения Architect).
       - Phase 4 — оценка фильтра по 001.
       - docs/ROLES — обновление статуса.
-    LAST RESPONSE NUMBER: MS115 (обновлять по каждому ответу)
+    LAST RESPONSE NUMBER: MS119 (обновлять по каждому ответу)
 
 ## Repository
 
-- Envoy: 7762cd0 (main = origin/main)
+- Envoy: 6b8554f (main = origin/main)
 - LAB (external source, метод координации):
   3abc90b (main-working)
 
@@ -53,6 +54,7 @@
 - 007 — Arbitrable probe — CLOSED — RUN + SYNTHESIS + COMMANDS — single arbitrable in range
 - 008 — Range probe — CLOSED — RUN + SYNTHESIS + COMMANDS + DISPUTES — 296 disputes, IDs 0..295
 - 009 — Full corpus — CLOSED — RUN + SYNTHESIS + COMMANDS + DISPUTES — ID->block map, start block 274 289 504
+- 010 — Descriptive summary — CLOSED — RUN + SYNTHESIS + COMMANDS — span ~697 days, 0.42/day
 
 ## Documentation
 
@@ -74,7 +76,7 @@
 
 - Phase 4 (filter assessment) по 001 не оформлена.
 - docs/ROLES-v0.1.md — статус PROVISIONAL не снят.
-- Descriptive summary корпуса (Run 010) не сделан.
+- Направление интерпретации корпуса не выбрано.
 - field/003 — расхождение MS-нумерации Grok
   зафиксировано, но причина UNKNOWN.
 
