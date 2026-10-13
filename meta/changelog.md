@@ -140,3 +140,17 @@
   Значение Namazu помечено как непроверенное
   и не используется.
   Основание: Next Observation из Run 004.
+
+## field/006-kleros-corpus-expansion/
+
+- 2026-10-13 — Run 006 закрыт.
+  RUN.md, SYNTHESIS.md, COMMANDS.md, DISPUTES.md.
+  SENSOR STATUS: GREEN (extended corpus).
+  Пагинированный eth_getLogs (10 чанков по 10M блоков).
+  178 уникальных V2 disputes, IDs 118-295,
+  блоки 431 728 818 .. 514 090 528.
+  Все от одного arbitrable 0xb5526d...4323.
+  Основание: Next Observation из Run 005
+  (расширение выборки до >= 10).
+  Открыто: существуют ли ids < 118; есть ли
+  другие arbitrable помимо 0xb5526d...4323.
