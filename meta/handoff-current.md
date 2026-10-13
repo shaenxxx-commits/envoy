@@ -1,6 +1,6 @@
 # HANDOFF CURRENT — ENVOY
 
-**Дата:** 2026-10-11
+**Дата:** 2026-10-13
 **Статус:** актуальный
 **Основание:** handoff-protocol LAB (адаптируется)
 
@@ -9,34 +9,31 @@
 
 ## CURRENT STATE
 
-    HEAD: a3d4348 (main = origin/main) — после этого
-      коммита записываются meta/handoff-protocol.md
-      и meta/changelog.md; их SHA — в следующем handoff.
-    ACTIVE PHASE: documentation-coordination
+    HEAD: 3b18cf7 (main = origin/main)
+    ACTIVE PHASE: field-observation
     STATUS: open
-    LAST COMPLETED: Run 004 (Kleros on-chain sensor, YELLOW)
+    LAST COMPLETED: Run 005 (Kleros on-chain verification, GREEN)
     WORKING HYPOTHESES:
-      - On-chain путь архитектурно правдоподобен,
-        эмпирически не подтверждён (Run 004).
-      - Sensor status YELLOW: документировано, не извлечено.
+      - On-chain sensor V2 рабочий из nova (Run 005, GREEN).
+      - Барьер Run 004 был свойством среды внешних,
+        не поля (Run 005 подтвердил).
     KNOWN UNKNOWNs:
-      - topic0 не проверен (единственный источник — Namazu).
-      - Работает ли публичный RPC из nova — не проверено.
-      - Расхождение MS-нумерации Grok: в persistent-чате
-        baseline = MS5, в репо grok-MS4.md. Причина UNKNOWN.
+      - Полный размер популяции V2 disputes.
+      - Все ли V2 disputes от одного arbitrable.
+      - Репрезентативность выборки 290-295.
+      - Расхождение MS-нумерации Grok: baseline MS5
+        в чате vs grok-MS4.md в репо. Причина UNKNOWN.
       - Phase 4 (filter assessment) не оформлена.
-      - docs/ROLES-v0.1.md — STATUS: PROVISIONAL,
-        не обновлён после выбора поля.
+      - docs/ROLES-v0.1.md — STATUS: PROVISIONAL.
     PENDING DECISION:
-      - On-chain шаг (Next Observation из 004).
+      - Расширение выборки V2 disputes (>= 10).
       - Phase 4 — оценка фильтра по 001.
       - docs/ROLES — обновление статуса.
-    LAST RESPONSE NUMBER: MS61 (обновлять по каждому ответу)
+    LAST RESPONSE NUMBER: MS90 (обновлять по каждому ответу)
 
 ## Repository
 
-- Envoy: a3d4348 (main = origin/main)
-  (+ handoff-protocol.md, changelog.md — в след. коммите)
+- Envoy: 3b18cf7 (main = origin/main)
 - LAB (external source, метод координации):
   3abc90b (main-working)
 
@@ -46,6 +43,7 @@
 - 002 — Kleros reconnaissance — CLOSED — только RUN.md
 - 003 — Baseline sensor — CLOSED — RUN + SYNTHESIS + RAW + 3 External
 - 004 — On-chain sensor — CLOSED — RUN + SYNTHESIS + RAW + 3 External
+- 005 — On-chain verification (local nova) — CLOSED — RUN + SYNTHESIS + COMMANDS — GREEN
 
 ## Documentation
 
@@ -67,7 +65,7 @@
 
 - Phase 4 (filter assessment) по 001 не оформлена.
 - docs/ROLES-v0.1.md — статус PROVISIONAL не снят.
-- On-chain шаг (Next Observation 004) не выполнен.
+- Расширение выборки V2 disputes (>= 10) не сделано.
 - field/003 — расхождение MS-нумерации Grok
   зафиксировано, но причина UNKNOWN.
 
