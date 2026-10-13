@@ -125,3 +125,18 @@
   RUN.md, SYNTHESIS.md, RAW-EXTERNALS.md,
   grok-MS5.md, namazu-MS6.md, kimi-MS6.md.
   SENSOR STATUS: YELLOW.
+
+## field/005-kleros-onchain-verification/
+
+- 2026-10-13 — Run 005 закрыт.
+  RUN.md, SYNTHESIS.md, COMMANDS.md.
+  SENSOR STATUS: GREEN.
+  Первое успешное on-chain извлечение V2 disputes
+  с локальной машины nova (6 событий DisputeCreation,
+  IDs 290-295).
+  Зафиксировано расхождение: Namazu (Run 004, MS6)
+  сообщил topic0 0x62e78dda..., канонический
+  локально вычисленный — 0x141dfc18....
+  Значение Namazu помечено как непроверенное
+  и не используется.
+  Основание: Next Observation из Run 004.
