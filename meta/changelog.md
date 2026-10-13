@@ -166,3 +166,16 @@
   Второй arbitrable в диапазоне 414M..514M не обнаружен.
   Основание: первый probe из Next Observation Run 006.
   Открыто: range probe ниже 414M (Run 008).
+
+## field/008-kleros-range-probe/
+
+- 2026-10-13 — Run 008 закрыт.
+  RUN.md, SYNTHESIS.md, COMMANDS.md, DISPUTES.md.
+  Range probe: обход вглубь от 414M до 164M.
+  Результат: поле V2 картировано.
+  Итого 296 disputes, IDs 0..295 без пропусков.
+  Все от одного arbitrable 0xb5526d...4323.
+  Ниже 214M (50M блоков) — 0 событий.
+  Граница поля: между 214M и 254M.
+  Основание: второй probe из Next Observation Run 006.
+  Открыто: точный start block; блоки для IDs 0..117.

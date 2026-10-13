@@ -9,34 +9,38 @@
 
 ## CURRENT STATE
 
-    HEAD: 8be9b0e (main = origin/main)
+    HEAD: 82276f3 (main = origin/main)
     ACTIVE PHASE: field-observation
     STATUS: open
-    LAST COMPLETED: Run 007 (Arbitrable probe, single arbitrable confirmed)
+    LAST COMPLETED: Run 008 (Range probe, full V2 field bounded, 296 disputes)
     WORKING HYPOTHESES:
-      - On-chain sensor V2 рабочий из nova (Run 005-006, GREEN).
-      - 178 V2 disputes, IDs 118-295, все от одного
-        arbitrable 0xb5526d...4323 (Run 006).
+      - On-chain sensor V2 рабочий из nova (Run 005-008, GREEN).
+      - Полное поле V2: 296 disputes, IDs 0..295,
+        без пропусков, один arbitrable 0xb5526d...4323
+        (Runs 006-008).
+      - Граница поля: между блоками 214M и 254M.
       - Барьер Run 004 был свойством среды внешних,
         не поля.
     KNOWN UNKNOWNs:
-      - Существуют ли V2 disputes с id < 118.
-      - Есть ли другие arbitrable за пределами
-        диапазона 414M..514M.
-      - Полнота V2 поля за пределами traverse.
+      - Точный start block V2 поля (между 214M и 254M).
+      - Block numbers для IDs 0..117 (диапазоны известны,
+        точные блоки не извлечены).
+      - Существовали ли другие arbitrable ранее.
       - Расхождение MS-нумерации Grok: baseline MS5
         в чате vs grok-MS4.md в репо. Причина UNKNOWN.
       - Phase 4 (filter assessment) не оформлена.
       - docs/ROLES-v0.1.md — STATUS: PROVISIONAL.
     PENDING DECISION:
-      - Run 008: range probe ниже 414M.
+      - Точный start block V2 (probe 214M..254M).
+      - Извлечь блоки для IDs 0..117.
+      - Первый descriptive summary корпуса.
       - Phase 4 — оценка фильтра по 001.
       - docs/ROLES — обновление статуса.
-    LAST RESPONSE NUMBER: MS105 (обновлять по каждому ответу)
+    LAST RESPONSE NUMBER: MS112 (обновлять по каждому ответу)
 
 ## Repository
 
-- Envoy: 8be9b0e (main = origin/main)
+- Envoy: 82276f3 (main = origin/main)
 - LAB (external source, метод координации):
   3abc90b (main-working)
 
@@ -49,6 +53,7 @@
 - 005 — On-chain verification (local nova) — CLOSED — RUN + SYNTHESIS + COMMANDS — GREEN
 - 006 — Corpus expansion — CLOSED — RUN + SYNTHESIS + COMMANDS + DISPUTES — 178 disputes — GREEN
 - 007 — Arbitrable probe — CLOSED — RUN + SYNTHESIS + COMMANDS — single arbitrable in range
+- 008 — Range probe — CLOSED — RUN + SYNTHESIS + COMMANDS + DISPUTES — 296 disputes, IDs 0..295
 
 ## Documentation
 
@@ -70,7 +75,7 @@
 
 - Phase 4 (filter assessment) по 001 не оформлена.
 - docs/ROLES-v0.1.md — статус PROVISIONAL не снят.
-- Run 006: range probe ниже 414M не выполнен (Run 008).
+- Точный start block V2 и блоки IDs 0..117 не извлечены.
 - field/003 — расхождение MS-нумерации Grok
   зафиксировано, но причина UNKNOWN.
 
