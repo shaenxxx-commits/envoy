@@ -217,3 +217,17 @@
   MetaEvidence — испаноязычный consumer шаблон.
   Основание: Next Observation Run 010.
   Открыто: categorized summary (court x time).
+
+## field/012-kleros-court-time/
+
+- 2026-10-13 — Run 012 закрыт.
+  RUN.md, SYNTHESIS.md.
+  Categorized summary: court x time для 296 disputes.
+  Три волны продукта:
+    2025 Q2-Q3 — court 29 (Consumo y Vecindad);
+    2026 Q2    — court 32 (Defensores del Cliente);
+    2026 Q3    — court 34 (129 disputes за квартал).
+  Всплеск последних месяцев = court 34.
+  Основание: Next Observation Run 011.
+  Открыто: идентификация court 34 (Run 002 предполагал
+  Agentic Commerce Court, не перепроверено).

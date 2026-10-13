@@ -9,37 +9,37 @@
 
 ## CURRENT STATE
 
-    HEAD: 8ed7ad0 (main = origin/main)
+    HEAD: 79f9cb0 (main = origin/main)
     ACTIVE PHASE: field-observation
     STATUS: open
-    LAST COMPLETED: Run 011 (Arbitrable identity = DisputeResolver, 7 courts)
+    LAST COMPLETED: Run 012 (Court x time, three product waves)
     WORKING HYPOTHESES:
-      - On-chain sensor V2 рабочий из nova (Runs 005-011).
-      - Полное поле V2: 296 disputes, IDs 0..295.
-      - Единственный arbitrable 0xb5526d...4323 =
-        DisputeResolver (generic Kleros tool, ERC-792).
-      - 7 courts: 1, 3, 24, 29, 31, 32, 34.
-      - Court 34: 135, court 29: 87, court 32: 36.
+      - On-chain sensor V2 рабочий из nova (Runs 005-012).
+      - 296 disputes через DisputeResolver.
+      - Три волны продуктов в истории поля:
+        2025 Q2 court 29; 2026 Q2 court 32; 2026 Q3 court 34.
+      - Всплеск последних 2 мес = court 34 (129 из 146
+        в 2026-Q3).
       - Барьер Run 004 был свойством среды внешних.
     KNOWN UNKNOWNs:
-      - Какой court драйвит всплеск в последние
-        2 месяца (не разбито по court x time).
-      - Реален ли court 34 = Agentic Commerce Court
+      - Официальное имя court 34.
+      - Природа court 34: реально ли Agentic Commerce
         (по External Run 002, не перепроверено).
+      - Связаны ли courts 29 и 32 (обе Argentina).
       - Текущий статус поля (активно / приостановлено).
       - Расхождение MS-нумерации Grok: baseline MS5
         в чате vs grok-MS4.md в репо. Причина UNKNOWN.
       - Phase 4 (filter assessment) не оформлена.
       - docs/ROLES-v0.1.md — STATUS: PROVISIONAL.
     PENDING DECISION:
-      - Categorized summary (court x time) — Run 012.
+      - Идентификация court 34 (Run 013).
       - Phase 4 — оценка фильтра по 001.
       - docs/ROLES — обновление статуса.
-    LAST RESPONSE NUMBER: MS135 (обновлять по каждому ответу)
+    LAST RESPONSE NUMBER: MS139 (обновлять по каждому ответу)
 
 ## Repository
 
-- Envoy: 8ed7ad0 (main = origin/main)
+- Envoy: 79f9cb0 (main = origin/main)
 - LAB (external source, метод координации):
   3abc90b (main-working)
 
@@ -56,6 +56,7 @@
 - 009 — Full corpus — CLOSED — RUN + SYNTHESIS + COMMANDS + DISPUTES — ID->block map, start block 274 289 504
 - 010 — Descriptive summary — CLOSED — RUN + SYNTHESIS + COMMANDS — span ~697 days, 0.42/day
 - 011 — Arbitrable identity — CLOSED — RUN + SYNTHESIS + COMMANDS + COURTS — DisputeResolver, 7 courts
+- 012 — Court x time — CLOSED — RUN + SYNTHESIS — three product waves, court 34 spike
 
 ## Documentation
 
@@ -77,7 +78,7 @@
 
 - Phase 4 (filter assessment) по 001 не оформлена.
 - docs/ROLES-v0.1.md — статус PROVISIONAL не снят.
-- Categorized summary (court x time) не сделан.
+- Court 34 не идентифицирован.
 - field/003 — расхождение MS-нумерации Grok
   зафиксировано, но причина UNKNOWN.
 
