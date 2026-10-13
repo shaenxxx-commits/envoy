@@ -12,7 +12,7 @@
     HEAD: 8be9b0e (main = origin/main)
     ACTIVE PHASE: field-observation
     STATUS: open
-    LAST COMPLETED: Run 006 (Kleros V2 corpus expansion, 178 disputes, GREEN)
+    LAST COMPLETED: Run 007 (Arbitrable probe, single arbitrable confirmed)
     WORKING HYPOTHESES:
       - On-chain sensor V2 рабочий из nova (Run 005-006, GREEN).
       - 178 V2 disputes, IDs 118-295, все от одного
@@ -21,19 +21,18 @@
         не поля.
     KNOWN UNKNOWNs:
       - Существуют ли V2 disputes с id < 118.
-      - Есть ли другие arbitrable помимо 0xb5526d...4323.
+      - Есть ли другие arbitrable за пределами
+        диапазона 414M..514M.
       - Полнота V2 поля за пределами traverse.
       - Расхождение MS-нумерации Grok: baseline MS5
         в чате vs grok-MS4.md в репо. Причина UNKNOWN.
       - Phase 4 (filter assessment) не оформлена.
       - docs/ROLES-v0.1.md — STATUS: PROVISIONAL.
     PENDING DECISION:
-      - Два probe из Run 006:
-        (1) range probe: ниже 414M — есть ли ids < 118;
-        (2) arbitrable probe: снять фильтр arbitrable.
+      - Run 008: range probe ниже 414M.
       - Phase 4 — оценка фильтра по 001.
       - docs/ROLES — обновление статуса.
-    LAST RESPONSE NUMBER: MS103 (обновлять по каждому ответу)
+    LAST RESPONSE NUMBER: MS105 (обновлять по каждому ответу)
 
 ## Repository
 
@@ -49,6 +48,7 @@
 - 004 — On-chain sensor — CLOSED — RUN + SYNTHESIS + RAW + 3 External
 - 005 — On-chain verification (local nova) — CLOSED — RUN + SYNTHESIS + COMMANDS — GREEN
 - 006 — Corpus expansion — CLOSED — RUN + SYNTHESIS + COMMANDS + DISPUTES — 178 disputes — GREEN
+- 007 — Arbitrable probe — CLOSED — RUN + SYNTHESIS + COMMANDS — single arbitrable in range
 
 ## Documentation
 
@@ -70,7 +70,7 @@
 
 - Phase 4 (filter assessment) по 001 не оформлена.
 - docs/ROLES-v0.1.md — статус PROVISIONAL не снят.
-- Run 006: два probe не выполнены.
+- Run 006: range probe ниже 414M не выполнен (Run 008).
 - field/003 — расхождение MS-нумерации Grok
   зафиксировано, но причина UNKNOWN.
 

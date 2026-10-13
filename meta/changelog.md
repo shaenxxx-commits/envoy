@@ -154,3 +154,15 @@
   (расширение выборки до >= 10).
   Открыто: существуют ли ids < 118; есть ли
   другие arbitrable помимо 0xb5526d...4323.
+
+## field/007-kleros-arbitrable-probe/
+
+- 2026-10-13 — Run 007 закрыт.
+  RUN.md, SYNTHESIS.md, COMMANDS.md.
+  Arbitrable probe: снят фильтр по arbitrable,
+  перезапрошен topic0 DisputeCreation.
+  Результат: те же 178 событий, тот же единственный
+  arbitrable 0xb5526d...4323.
+  Второй arbitrable в диапазоне 414M..514M не обнаружен.
+  Основание: первый probe из Next Observation Run 006.
+  Открыто: range probe ниже 414M (Run 008).
