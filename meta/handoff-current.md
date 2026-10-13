@@ -9,31 +9,35 @@
 
 ## CURRENT STATE
 
-    HEAD: 3b18cf7 (main = origin/main)
+    HEAD: 8be9b0e (main = origin/main)
     ACTIVE PHASE: field-observation
     STATUS: open
-    LAST COMPLETED: Run 005 (Kleros on-chain verification, GREEN)
+    LAST COMPLETED: Run 006 (Kleros V2 corpus expansion, 178 disputes, GREEN)
     WORKING HYPOTHESES:
-      - On-chain sensor V2 рабочий из nova (Run 005, GREEN).
+      - On-chain sensor V2 рабочий из nova (Run 005-006, GREEN).
+      - 178 V2 disputes, IDs 118-295, все от одного
+        arbitrable 0xb5526d...4323 (Run 006).
       - Барьер Run 004 был свойством среды внешних,
-        не поля (Run 005 подтвердил).
+        не поля.
     KNOWN UNKNOWNs:
-      - Полный размер популяции V2 disputes.
-      - Все ли V2 disputes от одного arbitrable.
-      - Репрезентативность выборки 290-295.
+      - Существуют ли V2 disputes с id < 118.
+      - Есть ли другие arbitrable помимо 0xb5526d...4323.
+      - Полнота V2 поля за пределами traverse.
       - Расхождение MS-нумерации Grok: baseline MS5
         в чате vs grok-MS4.md в репо. Причина UNKNOWN.
       - Phase 4 (filter assessment) не оформлена.
       - docs/ROLES-v0.1.md — STATUS: PROVISIONAL.
     PENDING DECISION:
-      - Расширение выборки V2 disputes (>= 10).
+      - Два probe из Run 006:
+        (1) range probe: ниже 414M — есть ли ids < 118;
+        (2) arbitrable probe: снять фильтр arbitrable.
       - Phase 4 — оценка фильтра по 001.
       - docs/ROLES — обновление статуса.
-    LAST RESPONSE NUMBER: MS90 (обновлять по каждому ответу)
+    LAST RESPONSE NUMBER: MS103 (обновлять по каждому ответу)
 
 ## Repository
 
-- Envoy: 3b18cf7 (main = origin/main)
+- Envoy: 8be9b0e (main = origin/main)
 - LAB (external source, метод координации):
   3abc90b (main-working)
 
@@ -44,6 +48,7 @@
 - 003 — Baseline sensor — CLOSED — RUN + SYNTHESIS + RAW + 3 External
 - 004 — On-chain sensor — CLOSED — RUN + SYNTHESIS + RAW + 3 External
 - 005 — On-chain verification (local nova) — CLOSED — RUN + SYNTHESIS + COMMANDS — GREEN
+- 006 — Corpus expansion — CLOSED — RUN + SYNTHESIS + COMMANDS + DISPUTES — 178 disputes — GREEN
 
 ## Documentation
 
@@ -65,7 +70,7 @@
 
 - Phase 4 (filter assessment) по 001 не оформлена.
 - docs/ROLES-v0.1.md — статус PROVISIONAL не снят.
-- Расширение выборки V2 disputes (>= 10) не сделано.
+- Run 006: два probe не выполнены.
 - field/003 — расхождение MS-нумерации Grok
   зафиксировано, но причина UNKNOWN.
 
