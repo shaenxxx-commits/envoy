@@ -244,3 +244,16 @@
   Расхождение с Run 002 (External claims): не подтверждено.
   Основание: Next Observation Run 012.
   Открыто: кто драйвит всплеск 2026-Q3 (общий шаблон?).
+
+## field/014-kleros-court34-metaevidence/
+
+- 2026-10-14 — Run 014 закрыт.
+  RUN.md, SYNTHESIS.md.
+  Полная классификация MetaEvidence 135 court-34 disputes.
+  46 уникальных policyURI.
+  Доминируют 2 испаноязычных consumer-шаблона: 83 из 135 (61%).
+  Категория — пользовательский тег, не свойство суда.
+  «Agentic Commerce»: 24 из 135 (18%), пересекается с consumer-шаблонами.
+  Расхождение с Run 002 подтверждено: court 34 ≠ Agentic-specific.
+  Основание: Next Observation Run 013.
+  Открыто: направление интерпретации (требует решения Architect).

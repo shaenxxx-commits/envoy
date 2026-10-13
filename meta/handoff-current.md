@@ -9,39 +9,44 @@
 
 ## CURRENT STATE
 
-    HEAD: c6f146f (main = origin/main)
+    HEAD: 692dcbb (main = origin/main)
     ACTIVE PHASE: field-observation
     STATUS: open
-    LAST COMPLETED: Run 013 (Court 34 = general-purpose, not Agentic-specific)
+    LAST COMPLETED: Run 014 (Court 34 full MetaEvidence, 46 policyURIs, 2 dominant)
     WORKING HYPOTHESES:
-      - On-chain sensor V2 рабочий из nova (Runs 005-013).
+      - On-chain sensor V2 рабочий из nova (Runs 005-014).
       - 296 disputes через DisputeResolver.
       - Три волны: 2025 Q2 court 29; 2026 Q2 court 32;
         2026 Q3 court 34 (129 из 146).
-      - Court 34 = general-purpose court, не Agentic-specific.
+      - Court 34 = general-purpose court.
+      - Всплеск 2026-Q3 = 2 испаноязычных consumer-шаблона
+        (83 из 135, 61%).
+      - «Agentic Commerce» = пользовательский тег (24/135),
+        не свойство суда.
       - External claim Run 002 (court 34 = Agentic Commerce)
-        не подтверждён MetaEvidence.
-      - Барьер Run 004 был свойством среды внешних.
+        опровергнут MetaEvidence.
     KNOWN UNKNOWNs:
-      - Кто/что драйвит всплеск court 34 в 2026-Q3
-        (единый шаблон? policyURI? пользователь?).
-      - Официальное имя court 34 в документации Kleros.
-      - Связаны ли courts 29 и 32 (обе Argentina).
+      - Связаны ли три consumer-волны (29, 32, 34)
+        в одну реальную программу.
+      - Стоит ли за двумя доминирующими policyURI
+        один продукт или несколько пользователей.
       - Текущий статус поля (активно / приостановлено).
       - Расхождение MS-нумерации Grok: baseline MS5
         в чате vs grok-MS4.md в репо. Причина UNKNOWN.
       - Phase 4 (filter assessment) не оформлена.
       - docs/ROLES-v0.1.md — STATUS: PROVISIONAL.
     PENDING DECISION:
-      - Полная классификация MetaEvidence 135 court 34
-        disputes — единый ли шаблон.
+      - Направление интерпретации:
+        (1) Argentina consumer thread как кейс;
+        (2) Agentic thread;
+        (3) выход к Phase 4.
       - Phase 4 — оценка фильтра по 001.
       - docs/ROLES — обновление статуса.
-    LAST RESPONSE NUMBER: MS147 (обновлять по каждому ответу)
+    LAST RESPONSE NUMBER: MS151 (обновлять по каждому ответу)
 
 ## Repository
 
-- Envoy: c6f146f (main = origin/main)
+- Envoy: 692dcbb (main = origin/main)
 - LAB (external source, метод координации):
   3abc90b (main-working)
 
@@ -60,6 +65,7 @@
 - 011 — Arbitrable identity — CLOSED — RUN + SYNTHESIS + COMMANDS + COURTS — DisputeResolver, 7 courts
 - 012 — Court x time — CLOSED — RUN + SYNTHESIS — three product waves, court 34 spike
 - 013 — Court 34 identity — CLOSED — RUN + SYNTHESIS + SAMPLES — general-purpose court
+- 014 — Court 34 MetaEvidence — CLOSED — RUN + SYNTHESIS — 46 policyURIs, 2 dominant consumer templates
 
 ## Documentation
 
@@ -81,7 +87,7 @@
 
 - Phase 4 (filter assessment) по 001 не оформлена.
 - docs/ROLES-v0.1.md — статус PROVISIONAL не снят.
-- Полная классификация MetaEvidence court 34 не сделана.
+- Направление интерпретации не выбрано.
 - field/003 — расхождение MS-нумерации Grok
   зафиксировано, но причина UNKNOWN.
 
