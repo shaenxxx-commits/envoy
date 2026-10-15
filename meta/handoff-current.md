@@ -9,10 +9,10 @@
 
 ## CURRENT STATE
 
-    HEAD: 25e9c7d (main = origin/main)
+    HEAD: 297b5f8 (main = origin/main)
     ACTIVE PHASE: methodological-debt-closure
     STATUS: open
-    LAST COMPLETED: Run 016 (Court 34 structure, top court, all resolved)
+    LAST COMPLETED: Run 017 (Phase 4 filter assessment, filter retained)
     WORKING HYPOTHESES:
       - On-chain sensor V2 рабочий из nova (Runs 005-016).
       - 300 disputes через DisputeResolver (выросло с 296
@@ -37,14 +37,13 @@
       - Phase 4 (filter assessment) не оформлена.
       - docs/ROLES-v0.1.md — STATUS: PROVISIONAL.
     PENDING DECISION:
-      - Run 017: Phase 4 — оценка фильтра по 001.
-      - docs/ROLES — обновление статуса.
-      - Интерпретация / ресурсный контур — после Phase 4.
-    LAST RESPONSE NUMBER: MS176 (обновлять по каждому ответу)
+      - docs/ROLES — снятие или сохранение статуса PROVISIONAL.
+      - Интерпретация / ресурсный контур.
+    LAST RESPONSE NUMBER: MS178 (обновлять по каждому ответу)
 
 ## Repository
 
-- Envoy: 25e9c7d (main = origin/main)
+- Envoy: 297b5f8 (main = origin/main)
 - LAB (external source, метод координации):
   3abc90b (main-working)
 
@@ -66,6 +65,7 @@
 - 014 — Court 34 MetaEvidence — CLOSED — RUN + SYNTHESIS — 46 policyURIs, 2 dominant consumer templates (revision notice)
 - 015 — External review — CLOSED — RUN + SYNTHESIS + REQUEST + RAW (3 responses) — court 34 label revised
 - 016 — Court 34 structure — CLOSED — RUN + SYNTHESIS — parent 33, top court, all 300 resolved
+- 017 — Filter assessment — CLOSED — RUN + SYNTHESIS — filter retained, A1-A3 candidates
 
 ## Documentation
 
@@ -85,9 +85,9 @@
 
 ## Что не сделано
 
-- Phase 4 (filter assessment) по 001 не оформлена.
 - docs/ROLES-v0.1.md — статус PROVISIONAL не снят.
 - PolicyRegistry URI court 34 не получен.
+- Интерпретация / ресурсный контур не начаты.
 - field/003 — расхождение MS-нумерации Grok
   зафиксировано, но причина UNKNOWN.
 

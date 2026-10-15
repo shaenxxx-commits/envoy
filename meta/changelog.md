@@ -289,3 +289,17 @@
   Корпус вырос 296 → 300 за сессию.
   Основание: структурные пробелы из External review (Run 015).
   Открыто: PolicyRegistry URI court 34; disputeKitId per dispute.
+
+## field/017-filter-assessment/
+
+- 2026-10-15 — Run 017 закрыт.
+  RUN.md, SYNTHESIS.md.
+  Phase 4 — оценка фильтра выбора поля (FIELD-SELECTION v0.1).
+  Первое применение на реальных Runs 001-016.
+  Итог: фильтр сохранён.
+  Кандидаты на ревизию (не внесены):
+    A1 — observation cost / operator cost;
+    A2 — Existing Synthesis per-dimension;
+    A3 — обязательная проверка Resource Fit в field cycle.
+  Основание: ROADMAP Phase 4, FIELD-SELECTION §8.
+  Ревизия v0.2 отложена до второго применения.
