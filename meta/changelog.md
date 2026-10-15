@@ -330,3 +330,21 @@
     Qmassb4gkqJ — courts 32 и 34.
   Основание: Next Observation из Run 017 (Research contour).
   Открыто: оператор программы; причина миграции.
+
+## field/019-external-review-h1/
+
+- 2026-10-15 — Run 019 закрыт.
+  RUN.md, SYNTHESIS.md, REQUEST.md, RAW-EXTERNALS.md,
+  kimi-MS10.md, namazu-MS9.md, grok-MS9.md.
+  Внешняя ревизия Run 018 (H1).
+  Все три внешних: H1 слишком сильная.
+  Overlap policyURI доказывает reuse шаблонов,
+  не единую программу.
+  Альтернативы: template library, marketplace,
+  fork, разные операторы с общим boilerplate.
+  Решение: H1 понижена до слабой формы.
+    Weak H1 (SUPPORTED): шаблоны переиспользуются.
+    Strong H1 (NOT SUPPORTED): одна программа.
+  Revision notice добавлена в Run 018 (не переписан).
+  Следующий шаг: tx.from для courts 29/32/34.
+  Основание: стандарт внешней независимой проверки.

@@ -9,21 +9,22 @@
 
 ## CURRENT STATE
 
-    HEAD: 492f084 (main = origin/main)
+    HEAD: 0c1e5fa (main = origin/main)
     ACTIVE PHASE: research-interpretation
     STATUS: open
-    LAST COMPLETED: Run 018 (Consumer wave hypothesis H1 supported)
+    LAST COMPLETED: Run 019 (External review; H1 downgraded to weak form)
     WORKING HYPOTHESES:
-      - On-chain sensor V2 рабочий из nova (Runs 005-018).
+      - On-chain sensor V2 рабочий из nova (Runs 005-019).
       - 300 disputes через DisputeResolver.
       - Court 34: parent 33 → 1, верхний court.
-      - H1 подтверждена (Run 018): три волны
-        (courts 29, 32, 34) = один consumer program,
-        мигрирующий между судами через DisputeResolver.
-      - Пересечение policyURI между тремя судами
-        подтверждено.
+      - Weak H1 (SUPPORTED): policyURI шаблоны
+        переиспользуются между courts 29, 32, 34.
+      - Strong H1 (NOT SUPPORTED): три волны ≠ одна
+        программа без operator-level доказательств.
+      - Все 3 внешних рекомендуют tx.from extraction.
     KNOWN UNKNOWNs:
-      - Кто оператор consumer program (off-chain).
+      - Кто оператор на уровне tx.from (EOA).
+      - Что такое templateId для этих disputes.
       - Почему программа мигрировала между судами.
       - PolicyRegistry URI court 34.
       - disputeKitId per dispute.
@@ -34,15 +35,15 @@
       - Phase 4 (filter assessment) не оформлена.
       - docs/ROLES-v0.1.md — STATUS: PROVISIONAL.
     PENDING DECISION:
-      - Идентификация оператора consumer program
-        (off-chain, возможно out of scope).
+      - Run 020: tx.from extraction для courts 29/32/34.
+      - templateId для этих disputes.
       - Причина миграции между судами.
-      - Переход к Resource Fit (ресурсный контур).
-    LAST RESPONSE NUMBER: MS185 (обновлять по каждому ответу)
+      - Переход к Resource Fit.
+    LAST RESPONSE NUMBER: MS194 (обновлять по каждому ответу)
 
 ## Repository
 
-- Envoy: 492f084 (main = origin/main)
+- Envoy: 0c1e5fa (main = origin/main)
 - LAB (external source, метод координации):
   3abc90b (main-working)
 
@@ -65,7 +66,8 @@
 - 015 — External review — CLOSED — RUN + SYNTHESIS + REQUEST + RAW (3 responses) — court 34 label revised
 - 016 — Court 34 structure — CLOSED — RUN + SYNTHESIS — parent 33, top court, all 300 resolved
 - 017 — Filter assessment — CLOSED — RUN + SYNTHESIS — filter retained, A1-A3 candidates
-- 018 — Consumer wave hypothesis — CLOSED — RUN + SYNTHESIS + raw — H1 supported
+- 018 — Consumer wave hypothesis — CLOSED — RUN + SYNTHESIS + raw — H1 supported (revision notice)
+- 019 — External review of H1 — CLOSED — RUN + SYNTHESIS + REQUEST + RAW (3 responses) — H1 downgraded to weak
 
 ## Documentation
 
@@ -86,7 +88,7 @@
 
 ## Что не сделано
 
-- Оператор consumer program не идентифицирован.
+- Оператор (tx.from) не идентифицирован.
 - Причина миграции между судами не выяснена.
 - PolicyRegistry URI court 34 не получен.
 - Resource Fit не начат.

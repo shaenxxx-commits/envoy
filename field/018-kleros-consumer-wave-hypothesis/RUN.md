@@ -108,3 +108,30 @@ DisputeResolver gateway.
 - Or move to Resource Fit analysis.
 
 STATUS: CLOSED
+
+## REVISION NOTICE (2026-10-15)
+
+Run 019 external review (Kimi MS10, Namazu MS9,
+Grok MS9) concluded that the H1 result in this run
+was stated too strongly.
+
+All three external nodes agreed:
+
+- policyURI overlap proves template reuse, not a
+  single program.
+- Alternative explanations (template library,
+  marketplace, fork, independent operators with
+  shared boilerplate) are not excluded.
+- Operator-level evidence (tx.from, templateId)
+  is required before claiming a single program.
+
+Revised result:
+
+"Weak H1 (SUPPORTED): policyURI templates are
+reused across courts 29, 32, 34.
+Strong H1 (NOT SUPPORTED): the three waves are
+one consumer dispute program."
+
+The original Run 018 text is preserved.
+See field/019-external-review-h1/ for the full
+review.
