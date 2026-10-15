@@ -9,10 +9,10 @@
 
 ## CURRENT STATE
 
-    HEAD: b3cfa19 (main = origin/main)
-    ACTIVE PHASE: context-consolidation
+    HEAD: fbf0ad5 (main = origin/main)
+    ACTIVE PHASE: source-verification
     STATUS: open
-    LAST COMPLETED: docs/KLEROS-CONTEXT-v0.1 (mixed-layer context)
+    LAST COMPLETED: Run 022 (6/6 external claims verified, Lemon confirmed)
     WORKING HYPOTHESES:
       - On-chain sensor V2 рабочий из nova (Runs 005-020).
       - 300 disputes через DisputeResolver.
@@ -25,28 +25,28 @@
         0xd0d5fad9 (courts 29+32),
         0xe66f7f8a (court 34).
     KNOWN UNKNOWNs:
-      - Подтверждение внешних claims (Lemon, Mendoza,
-        Resolución 893/2025, court 34 changelog) —
-        Run 022.
-      - Off-chain идентичность операторов
-        0xd0d5fad9 и 0xe66f7f8a.
+      - Содержимое второго policyURI
+        (QmUbgqKuUvfsnW...).
+      - Принадлежат ли все 5 EOA к Lemon или есть
+        другие операторы на Lemon-шаблонах.
+      - Off-chain идентичность 0xd0d5fad9 и 0xe66f7f8a.
       - Другие arbitrable-контракты на Arbitrum V2.
       - Agentic-активность где-либо вообще.
-      - field/003 — расхождение MS-нумерации Grok.
+      - Связь с Milei/Sociedades Automatizadas.
       - Расхождение MS-нумерации Grok: baseline MS5
         в чате vs grok-MS4.md в репо. Причина UNKNOWN.
       - Phase 4 (filter assessment) не оформлена.
       - docs/ROLES-v0.1.md — STATUS: PROVISIONAL.
     PENDING DECISION:
-      - Run 022: verification внешних claims
-        (HTTP, без on-chain).
+      - Run 023: второй policyURI + обновление
+        KLEROS-CONTEXT до v0.2.
+      - Вопрос multiple operators на Lemon-шаблонах.
       - Проверка других arbitrable (on-chain expansion).
-      - Дальше — интерпретация / ресурсный контур.
-    LAST RESPONSE NUMBER: MS213 (обновлять по каждому ответу)
+    LAST RESPONSE NUMBER: MS232 (обновлять по каждому ответу)
 
 ## Repository
 
-- Envoy: b3cfa19 (main = origin/main)
+- Envoy: fbf0ad5 (main = origin/main)
 - LAB (external source, метод координации):
   3abc90b (main-working)
 
@@ -72,6 +72,8 @@
 - 018 — Consumer wave hypothesis — CLOSED — RUN + SYNTHESIS + raw — H1 supported (revision notice)
 - 019 — External review of H1 — CLOSED — RUN + SYNTHESIS + REQUEST + RAW (3 responses) — H1 downgraded to weak
 - 020 — Operator extraction — CLOSED — RUN + SYNTHESIS + raw — strong H1 refuted, two programs
+- 021 — External review of direction — CLOSED — RUN + SYNTHESIS + REQUEST + RAW (3 responses)
+- 022 — Verify external claims — CLOSED — RUN + SYNTHESIS + SOURCES + lemon-policy.pdf — 6/6 verified, Lemon confirmed
 
 ## Documentation
 
@@ -93,8 +95,9 @@
 
 ## Что не сделано
 
-- Off-chain идентичность операторов не установлена.
-- PolicyRegistry URI court 34 не получен.
+- Второй policyURI не проверен (Run 023).
+- Вопрос multiple operators не решён.
+- KLEROS-CONTEXT-v0.1 не обновлён до v0.2.
 - Resource Fit не начат.
 - field/003 — расхождение MS-нумерации Grok
   зафиксировано, но причина UNKNOWN.

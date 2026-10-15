@@ -379,3 +379,19 @@
   Основание: накопление внешних claims (Run 021)
   + собственные on-chain наблюдения (Runs 005-020).
   Открыто: проверка приоритетных источников (Run 022).
+
+## field/022-verify-external-claims/
+
+- 2026-10-15 — Run 022 закрыт.
+  RUN.md, SYNTHESIS.md, SOURCES.md, lemon-policy.pdf.
+  Верификация внешних claims из Run 021.
+  6 из 6 priority 1-2 URL подтверждены (HTTP 200).
+  Дополнительно: доминирующий policyURI в court 34
+  декодирован — PDF "Política de Interpretación de
+  Disputas Lemon".
+  Lemon integration переведена из External-level
+  в FACT.
+  H2 (field = Kleros Enterprise + Argentina consumer)
+  поддержана.
+  Основание: Run 021 (recommendation внешних).
+  Открыто: второй policyURI; вопрос multiple operators.
