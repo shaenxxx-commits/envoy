@@ -9,10 +9,10 @@
 
 ## CURRENT STATE
 
-    HEAD: c06657b (main = origin/main)
-    ACTIVE PHASE: source-verification
+    HEAD: a776524 (main = origin/main)
+    ACTIVE PHASE: context-consolidation
     STATUS: open
-    LAST COMPLETED: Run 023 (second policy = generic consumer, not Lemon)
+    LAST COMPLETED: docs/KLEROS-FIGURES-v0.1 (figures registry)
     WORKING HYPOTHESES:
       - On-chain sensor V2 рабочий из nova (Runs 005-020).
       - 300 disputes через DisputeResolver.
@@ -44,7 +44,7 @@
 
 ## Repository
 
-- Envoy: c06657b (main = origin/main)
+- Envoy: a776524 (main = origin/main)
 - LAB (external source, метод координации):
   3abc90b (main-working)
 
@@ -82,7 +82,8 @@
   EXTERNAL-BOOTSTRAP-v0.1, EXTERNAL-BOOTSTRAP-v0.2,
   EXTERNALS-v0.1 (superseded), EXTERNALS-v0.2,
   FIELD-LOG-v0.1 (superseded), FIELD-LOG-v0.2,
-  KLEROS-CONTEXT-v0.1 (working context)
+  KLEROS-CONTEXT-v0.1 (working context),
+  KLEROS-FIGURES-v0.1 (figures registry)
 - meta/: handoff-current.md, operator-preferences.md,
   handoff-protocol.md, changelog.md
 
