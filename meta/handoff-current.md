@@ -9,10 +9,10 @@
 
 ## CURRENT STATE
 
-    HEAD: 297b5f8 (main = origin/main)
-    ACTIVE PHASE: methodological-debt-closure
+    HEAD: 80c54d9 (main = origin/main)
+    ACTIVE PHASE: methodological-debt-closure (closing)
     STATUS: open
-    LAST COMPLETED: Run 017 (Phase 4 filter assessment, filter retained)
+    LAST COMPLETED: ROLES v0.2 (status confirmed, first cycle passed)
     WORKING HYPOTHESES:
       - On-chain sensor V2 рабочий из nova (Runs 005-016).
       - 300 disputes через DisputeResolver (выросло с 296
@@ -37,13 +37,14 @@
       - Phase 4 (filter assessment) не оформлена.
       - docs/ROLES-v0.1.md — STATUS: PROVISIONAL.
     PENDING DECISION:
-      - docs/ROLES — снятие или сохранение статуса PROVISIONAL.
-      - Интерпретация / ресурсный контур.
-    LAST RESPONSE NUMBER: MS178 (обновлять по каждому ответу)
+      - Интерпретация поля / ресурсный контур.
+      - Второй field cycle (новое поле).
+      - Interaction phase (не использована в первом цикле).
+    LAST RESPONSE NUMBER: MS180 (обновлять по каждому ответу)
 
 ## Repository
 
-- Envoy: 297b5f8 (main = origin/main)
+- Envoy: 80c54d9 (main = origin/main)
 - LAB (external source, метод координации):
   3abc90b (main-working)
 
@@ -70,7 +71,8 @@
 ## Documentation
 
 - docs/: DDA-v0.1, FIELD-SELECTION-v0.1,
-  ROLES-v0.1, ROADMAP-v0.1,
+  ROLES-v0.1 (superseded), ROLES-v0.2,
+  ROADMAP-v0.1,
   EXTERNAL-BOOTSTRAP-v0.1, EXTERNAL-BOOTSTRAP-v0.2,
   EXTERNALS-v0.1 (superseded), EXTERNALS-v0.2,
   FIELD-LOG-v0.1 (superseded), FIELD-LOG-v0.2
@@ -85,9 +87,9 @@
 
 ## Что не сделано
 
-- docs/ROLES-v0.1.md — статус PROVISIONAL не снят.
 - PolicyRegistry URI court 34 не получен.
 - Интерпретация / ресурсный контур не начаты.
+- Interaction phase не использовалась.
 - field/003 — расхождение MS-нумерации Grok
   зафиксировано, но причина UNKNOWN.
 
