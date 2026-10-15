@@ -276,3 +276,16 @@
   Открыто: Run 016 — структурные параметры court 34
   (parent, disputeKit, PolicyRegistry), проверка courts > 34,
   полнота корпуса ниже 164M.
+
+## field/016-kleros-court34-structure/
+
+- 2026-10-15 — Run 016 закрыт.
+  RUN.md, SYNTHESIS.md.
+  Структурные параметры court 34.
+  Parent = 33, цепочка 34 → 33 → 1 (General Court).
+  Courts 35-45 не существуют; court 34 — верхний.
+  Все 300 disputes: period=4 (execution), ruled=true.
+  Ruling: 138 accept, 137 reject, 18 refuse, 6 ruling=3, 1 ruling=4.
+  Корпус вырос 296 → 300 за сессию.
+  Основание: структурные пробелы из External review (Run 015).
+  Открыто: PolicyRegistry URI court 34; disputeKitId per dispute.

@@ -9,44 +9,42 @@
 
 ## CURRENT STATE
 
-    HEAD: 7e8ca7f (main = origin/main)
+    HEAD: 25e9c7d (main = origin/main)
     ACTIVE PHASE: methodological-debt-closure
     STATUS: open
-    LAST COMPLETED: Run 015 (External review, court 34 label revised)
+    LAST COMPLETED: Run 016 (Court 34 structure, top court, all resolved)
     WORKING HYPOTHESES:
-      - On-chain sensor V2 рабочий из nova (Runs 005-014).
-      - 296 disputes через DisputeResolver.
-      - Три волны: 2025 Q2 court 29; 2026 Q2 court 32;
-        2026 Q3 court 34 (129 из 146).
-      - Court 34 официально назван Agentic Commerce Court
-        (Kleros docs); consumer-доминирующий корпус
-        не опровергает официальное имя.
-      - 2 испаноязычных consumer-шаблона = 83 из 135 (61%).
-      - Внешние (все 3) рекомендуют закрыть методологические
-        долги до интерпретации.
+      - On-chain sensor V2 рабочий из nova (Runs 005-016).
+      - 300 disputes через DisputeResolver (выросло с 296
+        за сессию — поле активно).
+      - Court 34: parent 33 → 1, верхний court (35-45 нет).
+      - Все 300 disputes resolved (period=4, ruled=true).
+      - Ruling distribution: 138 accept, 137 reject,
+        18 refuse, 7 non-standard (multi-option kit).
+      - Court 34 официально Agentic Commerce Court,
+        но принимает heterogenous disputes через
+        DisputeResolver.
+      - Внешние (все 3) рекомендовали закрыть
+        методологические долги — закрываем.
     KNOWN UNKNOWNs:
-      - Parent court и disputeKitId для court 34.
-      - PolicyRegistry / официальная политика court 34.
-      - Существуют ли courts > 34 (в т.ч. Agentic-specific).
+      - PolicyRegistry URI court 34.
+      - disputeKitId per dispute.
       - Полнота корпуса ниже 164M (genesis V2).
       - Кто инициаторы (за DisputeResolver).
       - Fees / token per dispute.
-      - Resolved vs ongoing статус.
       - Расхождение MS-нумерации Grok: baseline MS5
         в чате vs grok-MS4.md в репо. Причина UNKNOWN.
       - Phase 4 (filter assessment) не оформлена.
       - docs/ROLES-v0.1.md — STATUS: PROVISIONAL.
     PENDING DECISION:
-      - Run 016: параметры court 34 + проверка courts > 34
-        + полнота корпуса.
-      - Phase 4 — оценка фильтра по 001.
+      - Run 017: Phase 4 — оценка фильтра по 001.
       - docs/ROLES — обновление статуса.
-      - Интерпретация / ресурсный контур — после Run 016.
-    LAST RESPONSE NUMBER: MS165 (обновлять по каждому ответу)
+      - Интерпретация / ресурсный контур — после Phase 4.
+    LAST RESPONSE NUMBER: MS176 (обновлять по каждому ответу)
 
 ## Repository
 
-- Envoy: 7e8ca7f (main = origin/main)
+- Envoy: 25e9c7d (main = origin/main)
 - LAB (external source, метод координации):
   3abc90b (main-working)
 
@@ -67,6 +65,7 @@
 - 013 — Court 34 identity — CLOSED — RUN + SYNTHESIS + SAMPLES — general-purpose court
 - 014 — Court 34 MetaEvidence — CLOSED — RUN + SYNTHESIS — 46 policyURIs, 2 dominant consumer templates (revision notice)
 - 015 — External review — CLOSED — RUN + SYNTHESIS + REQUEST + RAW (3 responses) — court 34 label revised
+- 016 — Court 34 structure — CLOSED — RUN + SYNTHESIS — parent 33, top court, all 300 resolved
 
 ## Documentation
 
@@ -88,8 +87,7 @@
 
 - Phase 4 (filter assessment) по 001 не оформлена.
 - docs/ROLES-v0.1.md — статус PROVISIONAL не снят.
-- Run 016 — параметры court 34 и полнота корпуса.
-- Направление интерпретации не выбрано.
+- PolicyRegistry URI court 34 не получен.
 - field/003 — расхождение MS-нумерации Grok
   зафиксировано, но причина UNKNOWN.
 
