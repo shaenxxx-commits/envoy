@@ -9,23 +9,26 @@
 
 ## CURRENT STATE
 
-    HEAD: 0c1e5fa (main = origin/main)
+    HEAD: 7c04d3d (main = origin/main)
     ACTIVE PHASE: research-interpretation
     STATUS: open
-    LAST COMPLETED: Run 019 (External review; H1 downgraded to weak form)
+    LAST COMPLETED: Run 020 (Operator extraction; strong H1 refuted)
     WORKING HYPOTHESES:
-      - On-chain sensor V2 рабочий из nova (Runs 005-019).
+      - On-chain sensor V2 рабочий из nova (Runs 005-020).
       - 300 disputes через DisputeResolver.
       - Court 34: parent 33 → 1, верхний court.
       - Weak H1 (SUPPORTED): policyURI шаблоны
         переиспользуются между courts 29, 32, 34.
-      - Strong H1 (NOT SUPPORTED): три волны ≠ одна
-        программа без operator-level доказательств.
-      - Все 3 внешних рекомендуют tx.from extraction.
+      - Strong H1 (REFUTED, Run 020): нет EOA,
+        работающего во всех трёх courts.
+      - Минимум две независимые программы:
+        0xd0d5fad9 (courts 29+32),
+        0xe66f7f8a (court 34).
     KNOWN UNKNOWNs:
-      - Кто оператор на уровне tx.from (EOA).
-      - Что такое templateId для этих disputes.
-      - Почему программа мигрировала между судами.
+      - Off-chain идентичность операторов
+        0xd0d5fad9 и 0xe66f7f8a.
+      - Связаны ли они организационно.
+      - Природа минорных EOA (0x9e51bbd7, 0xf1c7c037).
       - PolicyRegistry URI court 34.
       - disputeKitId per dispute.
       - Полнота корпуса ниже 164M (genesis V2).
@@ -35,15 +38,15 @@
       - Phase 4 (filter assessment) не оформлена.
       - docs/ROLES-v0.1.md — STATUS: PROVISIONAL.
     PENDING DECISION:
-      - Run 020: tx.from extraction для courts 29/32/34.
-      - templateId для этих disputes.
-      - Причина миграции между судами.
-      - Переход к Resource Fit.
-    LAST RESPONSE NUMBER: MS194 (обновлять по каждому ответу)
+      - Off-chain идентификация операторов или
+        переход к Resource Fit.
+      - templateId для disputes.
+      - PolicyRegistry URI court 34.
+    LAST RESPONSE NUMBER: MS198 (обновлять по каждому ответу)
 
 ## Repository
 
-- Envoy: 0c1e5fa (main = origin/main)
+- Envoy: 7c04d3d (main = origin/main)
 - LAB (external source, метод координации):
   3abc90b (main-working)
 
@@ -68,6 +71,7 @@
 - 017 — Filter assessment — CLOSED — RUN + SYNTHESIS — filter retained, A1-A3 candidates
 - 018 — Consumer wave hypothesis — CLOSED — RUN + SYNTHESIS + raw — H1 supported (revision notice)
 - 019 — External review of H1 — CLOSED — RUN + SYNTHESIS + REQUEST + RAW (3 responses) — H1 downgraded to weak
+- 020 — Operator extraction — CLOSED — RUN + SYNTHESIS + raw — strong H1 refuted, two programs
 
 ## Documentation
 
@@ -88,8 +92,7 @@
 
 ## Что не сделано
 
-- Оператор (tx.from) не идентифицирован.
-- Причина миграции между судами не выяснена.
+- Off-chain идентичность операторов не установлена.
 - PolicyRegistry URI court 34 не получен.
 - Resource Fit не начат.
 - field/003 — расхождение MS-нумерации Grok
