@@ -316,3 +316,17 @@
   роли прошли проверку.
   Открыто: interaction phase (§7) не использовалась;
   поведение ролей при field stop не проверено.
+
+## field/018-kleros-consumer-wave-hypothesis/
+
+- 2026-10-15 — Run 018 закрыт.
+  RUN.md, SYNTHESIS.md, raw-policy-uris.json.
+  Гипотеза H1 проверена: три волны (courts 29, 32, 34) —
+  один consumer dispute program, мигрирующий между судами.
+  H1 поддержана, H0 опровергнута.
+  Пересечение policyURI:
+    QmUbgqKuUvfsnW — все три суда;
+    QmbEs5Ae8Sh5W — courts 29 и 34;
+    Qmassb4gkqJ — courts 32 и 34.
+  Основание: Next Observation из Run 017 (Research contour).
+  Открыто: оператор программы; причина миграции.

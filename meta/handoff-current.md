@@ -9,42 +9,40 @@
 
 ## CURRENT STATE
 
-    HEAD: 80c54d9 (main = origin/main)
-    ACTIVE PHASE: methodological-debt-closure (closing)
+    HEAD: 492f084 (main = origin/main)
+    ACTIVE PHASE: research-interpretation
     STATUS: open
-    LAST COMPLETED: ROLES v0.2 (status confirmed, first cycle passed)
+    LAST COMPLETED: Run 018 (Consumer wave hypothesis H1 supported)
     WORKING HYPOTHESES:
-      - On-chain sensor V2 рабочий из nova (Runs 005-016).
-      - 300 disputes через DisputeResolver (выросло с 296
-        за сессию — поле активно).
-      - Court 34: parent 33 → 1, верхний court (35-45 нет).
-      - Все 300 disputes resolved (period=4, ruled=true).
-      - Ruling distribution: 138 accept, 137 reject,
-        18 refuse, 7 non-standard (multi-option kit).
-      - Court 34 официально Agentic Commerce Court,
-        но принимает heterogenous disputes через
-        DisputeResolver.
-      - Внешние (все 3) рекомендовали закрыть
-        методологические долги — закрываем.
+      - On-chain sensor V2 рабочий из nova (Runs 005-018).
+      - 300 disputes через DisputeResolver.
+      - Court 34: parent 33 → 1, верхний court.
+      - H1 подтверждена (Run 018): три волны
+        (courts 29, 32, 34) = один consumer program,
+        мигрирующий между судами через DisputeResolver.
+      - Пересечение policyURI между тремя судами
+        подтверждено.
     KNOWN UNKNOWNs:
+      - Кто оператор consumer program (off-chain).
+      - Почему программа мигрировала между судами.
       - PolicyRegistry URI court 34.
       - disputeKitId per dispute.
       - Полнота корпуса ниже 164M (genesis V2).
-      - Кто инициаторы (за DisputeResolver).
       - Fees / token per dispute.
       - Расхождение MS-нумерации Grok: baseline MS5
         в чате vs grok-MS4.md в репо. Причина UNKNOWN.
       - Phase 4 (filter assessment) не оформлена.
       - docs/ROLES-v0.1.md — STATUS: PROVISIONAL.
     PENDING DECISION:
-      - Интерпретация поля / ресурсный контур.
-      - Второй field cycle (новое поле).
-      - Interaction phase (не использована в первом цикле).
-    LAST RESPONSE NUMBER: MS180 (обновлять по каждому ответу)
+      - Идентификация оператора consumer program
+        (off-chain, возможно out of scope).
+      - Причина миграции между судами.
+      - Переход к Resource Fit (ресурсный контур).
+    LAST RESPONSE NUMBER: MS185 (обновлять по каждому ответу)
 
 ## Repository
 
-- Envoy: 80c54d9 (main = origin/main)
+- Envoy: 492f084 (main = origin/main)
 - LAB (external source, метод координации):
   3abc90b (main-working)
 
@@ -67,6 +65,7 @@
 - 015 — External review — CLOSED — RUN + SYNTHESIS + REQUEST + RAW (3 responses) — court 34 label revised
 - 016 — Court 34 structure — CLOSED — RUN + SYNTHESIS — parent 33, top court, all 300 resolved
 - 017 — Filter assessment — CLOSED — RUN + SYNTHESIS — filter retained, A1-A3 candidates
+- 018 — Consumer wave hypothesis — CLOSED — RUN + SYNTHESIS + raw — H1 supported
 
 ## Documentation
 
@@ -87,9 +86,10 @@
 
 ## Что не сделано
 
+- Оператор consumer program не идентифицирован.
+- Причина миграции между судами не выяснена.
 - PolicyRegistry URI court 34 не получен.
-- Интерпретация / ресурсный контур не начаты.
-- Interaction phase не использовалась.
+- Resource Fit не начат.
 - field/003 — расхождение MS-нумерации Grok
   зафиксировано, но причина UNKNOWN.
 
