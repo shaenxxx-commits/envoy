@@ -395,3 +395,17 @@
   поддержана.
   Основание: Run 021 (recommendation внешних).
   Открыто: второй policyURI; вопрос multiple operators.
+
+## field/023-second-policy-uri/
+
+- 2026-10-15 — Run 023 закрыт.
+  RUN.md, SYNTHESIS.md, general-consumer-policy.pdf.
+  Второй доминирующий policyURI court 34.
+  Title: "Política General de Disputas de Consumo v2.1.0".
+  Не Lemon-specific — общая аргентинская consumer policy.
+  Ссылки: Ley de Defensa del Consumidor, prepaid medicine,
+  credit card law.
+  Вывод: поле шире одного Lemon — минимум два различных
+  шаблона (Lemon-branded + generic).
+  Основание: Run 022 (next observation).
+  Открыто: автор general template; соотношение операторов.

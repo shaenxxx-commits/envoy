@@ -9,10 +9,10 @@
 
 ## CURRENT STATE
 
-    HEAD: fbf0ad5 (main = origin/main)
+    HEAD: c06657b (main = origin/main)
     ACTIVE PHASE: source-verification
     STATUS: open
-    LAST COMPLETED: Run 022 (6/6 external claims verified, Lemon confirmed)
+    LAST COMPLETED: Run 023 (second policy = generic consumer, not Lemon)
     WORKING HYPOTHESES:
       - On-chain sensor V2 рабочий из nova (Runs 005-020).
       - 300 disputes через DisputeResolver.
@@ -25,28 +25,26 @@
         0xd0d5fad9 (courts 29+32),
         0xe66f7f8a (court 34).
     KNOWN UNKNOWNs:
-      - Содержимое второго policyURI
-        (QmUbgqKuUvfsnW...).
-      - Принадлежат ли все 5 EOA к Lemon или есть
-        другие операторы на Lemon-шаблонах.
+      - Автор general template v2.1.0.
+      - Кто использует какой шаблон: все 5 EOA?
       - Off-chain идентичность 0xd0d5fad9 и 0xe66f7f8a.
       - Другие arbitrable-контракты на Arbitrum V2.
       - Agentic-активность где-либо вообще.
       - Связь с Milei/Sociedades Automatizadas.
+      - PolicyRegistry URI court 34.
       - Расхождение MS-нумерации Grok: baseline MS5
         в чате vs grok-MS4.md в репо. Причина UNKNOWN.
       - Phase 4 (filter assessment) не оформлена.
       - docs/ROLES-v0.1.md — STATUS: PROVISIONAL.
     PENDING DECISION:
-      - Run 023: второй policyURI + обновление
-        KLEROS-CONTEXT до v0.2.
-      - Вопрос multiple operators на Lemon-шаблонах.
+      - Обновить KLEROS-CONTEXT до v0.2 (Run 024).
+      - Оператор-шаблон mapping (какой EOA какой шаблон).
       - Проверка других arbitrable (on-chain expansion).
-    LAST RESPONSE NUMBER: MS232 (обновлять по каждому ответу)
+    LAST RESPONSE NUMBER: MS236 (обновлять по каждому ответу)
 
 ## Repository
 
-- Envoy: fbf0ad5 (main = origin/main)
+- Envoy: c06657b (main = origin/main)
 - LAB (external source, метод координации):
   3abc90b (main-working)
 
@@ -74,6 +72,7 @@
 - 020 — Operator extraction — CLOSED — RUN + SYNTHESIS + raw — strong H1 refuted, two programs
 - 021 — External review of direction — CLOSED — RUN + SYNTHESIS + REQUEST + RAW (3 responses)
 - 022 — Verify external claims — CLOSED — RUN + SYNTHESIS + SOURCES + lemon-policy.pdf — 6/6 verified, Lemon confirmed
+- 023 — Second policy URI — CLOSED — RUN + SYNTHESIS + general-consumer-policy.pdf — generic consumer policy, not Lemon
 
 ## Documentation
 
@@ -95,9 +94,8 @@
 
 ## Что не сделано
 
-- Второй policyURI не проверен (Run 023).
-- Вопрос multiple operators не решён.
 - KLEROS-CONTEXT-v0.1 не обновлён до v0.2.
+- Оператор-шаблон mapping не сделан.
 - Resource Fit не начат.
 - field/003 — расхождение MS-нумерации Grok
   зафиксировано, но причина UNKNOWN.
