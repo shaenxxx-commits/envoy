@@ -80,3 +80,24 @@ or template) or external documentation.
 
 Sampled from local corpus, RPC-verified.
 No interpretation of why the spike occurred.
+
+## REVISION NOTICE (2026-10-15)
+
+The conclusion "court 34 is general-purpose, not
+Agentic-specific" was revised by Run 015 following
+independent external review.
+
+Grok (MS8) pointed to official Kleros documentation
+that names court 34 "Agentic Commerce Court".
+A court can be officially named one thing and accept
+heterogeneous disputes. The observed consumer content
+does not refute the official name.
+
+Revised statement:
+
+"Court 34 is officially named Agentic Commerce Court
+(per public Kleros docs). In the observed corpus,
+Spanish consumer templates dominate its disputes."
+
+This notice preserves the original Run 013 text and
+records the correction, per no-silent-rewriting rule.

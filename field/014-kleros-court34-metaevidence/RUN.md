@@ -93,3 +93,25 @@ multiple independent operators. Determining that
 requires linking policyURI content to a product or
 organization, which is out of scope for on-chain
 analysis.
+
+## REVISION NOTICE (2026-10-15)
+
+The conclusion "the Run 002 External label is not
+confirmed" was revised by Run 015 following independent
+external review.
+
+Grok (MS8) cited official Kleros documentation
+(changelog 2026-08-17, blog, X, v2.kleros.builders/
+#/courts/34) naming court 34 "Agentic Commerce Court".
+
+The observed dominance of Spanish consumer templates
+is preserved as a fact about the corpus. The claim
+about the court's official identity is withdrawn.
+
+Revised statement:
+
+"Court 34 is officially Agentic Commerce Court.
+Its corpus in Runs 006-014 is dominated by Spanish
+consumer disputes submitted through DisputeResolver."
+
+This notice preserves the original Run 014 text.

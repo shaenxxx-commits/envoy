@@ -257,3 +257,22 @@
   Расхождение с Run 002 подтверждено: court 34 ≠ Agentic-specific.
   Основание: Next Observation Run 013.
   Открыто: направление интерпретации (требует решения Architect).
+
+## field/015-external-review-runs-011-014/
+
+- 2026-10-15 — Run 015 закрыт.
+  RUN.md, SYNTHESIS.md, REQUEST.md, RAW-EXTERNALS.md,
+  kimi-MS9.md, namazu-MS8.md, grok-MS8.md.
+  Внешняя ревизия Runs 011-014.
+  Консенсус всех трёх: сначала закрыть методологические
+  долги (Phase 4, ROLES), потом интерпретация.
+  Расхождение: Kimi и Namazu — court 34 не Agentic;
+  Grok — court 34 официально Agentic Commerce Court
+  (по Kleros docs), consumer-содержимое не опровергает.
+  Вывод: пересмотр Run 013/014. Court 34 = официально
+  Agentic Commerce Court + consumer-доминирующий корпус.
+  Revision notices добавлены в Run 013 и 014 (не переписаны).
+  Основание: принцип внешней независимой проверки.
+  Открыто: Run 016 — структурные параметры court 34
+  (parent, disputeKit, PolicyRegistry), проверка courts > 34,
+  полнота корпуса ниже 164M.
