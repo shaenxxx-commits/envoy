@@ -9,10 +9,10 @@
 
 ## CURRENT STATE
 
-    HEAD: 2b5d375 (main = origin/main)
+    HEAD: 249c996 (main = origin/main)
     ACTIVE PHASE: research-interpretation
     STATUS: open
-    LAST COMPLETED: Run 025 (operator × template mapping, corpus 342)
+    LAST COMPLETED: Run 026 (temporal dynamics, single-operator campaign)
     WORKING HYPOTHESES:
       - On-chain sensor V2 рабочий из nova (Runs 005-020).
       - 300 disputes через DisputeResolver.
@@ -25,26 +25,27 @@
         0xd0d5fad9 (courts 29+32),
         0xe66f7f8a (court 34).
     KNOWN UNKNOWNs:
+      - Идентичность 0xe66f7f8a (доминирующий, критично).
       - Идентичность 0x6687c671 (21 dispute, все unique).
       - Что такое Qmassb4g (16 disputes).
       - Что за 72 OTHER у 0xe66f7f8a.
-      - Off-chain идентичность 0xd0d5fad9 и 0xe66f7f8a.
+      - Off-chain идентичность 0xd0d5fad9.
       - Другие arbitrable-контракты на Arbitrum V2.
-      - Устойчивость розничного роста (Run 026).
+      - Триггеры двух burst-периодов (2025-05, 2026-08/09).
       - Связь с Milei/Sociedades Automatizadas.
       - Расхождение MS-нумерации Grok: baseline MS5
         в чате vs grok-MS4.md в репо. Причина UNKNOWN.
       - Phase 4 (filter assessment) не оформлена.
       - docs/ROLES-v0.1.md — STATUS: PROVISIONAL.
     PENDING DECISION:
-      - Run 026: temporal dynamics (когда пришли +42).
+      - Run 027: external search — идентификация 0xe66f7f8a.
       - KLEROS-CONTEXT v0.1 → v0.2 (отложено).
       - Проверка других arbitrable (on-chain expansion).
-    LAST RESPONSE NUMBER: MS256 (обновлять по каждому ответу)
+    LAST RESPONSE NUMBER: MS260 (обновлять по каждому ответу)
 
 ## Repository
 
-- Envoy: 2b5d375 (main = origin/main)
+- Envoy: 249c996 (main = origin/main)
 - LAB (external source, метод координации):
   3abc90b (main-working)
 
@@ -74,6 +75,7 @@
 - 022 — Verify external claims — CLOSED — RUN + SYNTHESIS + SOURCES + lemon-policy.pdf — 6/6 verified, Lemon confirmed
 - 023 — Second policy URI — CLOSED — RUN + SYNTHESIS + general-consumer-policy.pdf — generic consumer policy, not Lemon
 - 025 — Operator × template mapping — CLOSED — RUN + SYNTHESIS + raw — 342 disputes, 11 senders, 51% retail
+- 026 — Temporal dynamics — CLOSED — RUN + SYNTHESIS + COMMANDS — burst-driven, single-operator campaign
 
 ## Documentation
 
@@ -96,7 +98,7 @@
 
 ## Что не сделано
 
-- Run 026 (temporal dynamics) не выполнен.
+- Run 027 (external search 0xe66f7f8a) не выполнен.
 - KLEROS-CONTEXT-v0.1 не обновлён до v0.2.
 - Resource Fit не начат.
 - field/003 — расхождение MS-нумерации Grok
