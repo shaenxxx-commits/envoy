@@ -9,10 +9,10 @@
 
 ## CURRENT STATE
 
-    HEAD: a776524 (main = origin/main)
-    ACTIVE PHASE: context-consolidation
+    HEAD: 2b5d375 (main = origin/main)
+    ACTIVE PHASE: research-interpretation
     STATUS: open
-    LAST COMPLETED: docs/KLEROS-FIGURES-v0.1 (figures registry)
+    LAST COMPLETED: Run 025 (operator × template mapping, corpus 342)
     WORKING HYPOTHESES:
       - On-chain sensor V2 рабочий из nova (Runs 005-020).
       - 300 disputes через DisputeResolver.
@@ -25,26 +25,26 @@
         0xd0d5fad9 (courts 29+32),
         0xe66f7f8a (court 34).
     KNOWN UNKNOWNs:
-      - Автор general template v2.1.0.
-      - Кто использует какой шаблон: все 5 EOA?
+      - Идентичность 0x6687c671 (21 dispute, все unique).
+      - Что такое Qmassb4g (16 disputes).
+      - Что за 72 OTHER у 0xe66f7f8a.
       - Off-chain идентичность 0xd0d5fad9 и 0xe66f7f8a.
       - Другие arbitrable-контракты на Arbitrum V2.
-      - Agentic-активность где-либо вообще.
+      - Устойчивость розничного роста (Run 026).
       - Связь с Milei/Sociedades Automatizadas.
-      - PolicyRegistry URI court 34.
       - Расхождение MS-нумерации Grok: baseline MS5
         в чате vs grok-MS4.md в репо. Причина UNKNOWN.
       - Phase 4 (filter assessment) не оформлена.
       - docs/ROLES-v0.1.md — STATUS: PROVISIONAL.
     PENDING DECISION:
-      - Обновить KLEROS-CONTEXT до v0.2 (Run 024).
-      - Оператор-шаблон mapping (какой EOA какой шаблон).
+      - Run 026: temporal dynamics (когда пришли +42).
+      - KLEROS-CONTEXT v0.1 → v0.2 (отложено).
       - Проверка других arbitrable (on-chain expansion).
-    LAST RESPONSE NUMBER: MS236 (обновлять по каждому ответу)
+    LAST RESPONSE NUMBER: MS256 (обновлять по каждому ответу)
 
 ## Repository
 
-- Envoy: a776524 (main = origin/main)
+- Envoy: 2b5d375 (main = origin/main)
 - LAB (external source, метод координации):
   3abc90b (main-working)
 
@@ -73,6 +73,7 @@
 - 021 — External review of direction — CLOSED — RUN + SYNTHESIS + REQUEST + RAW (3 responses)
 - 022 — Verify external claims — CLOSED — RUN + SYNTHESIS + SOURCES + lemon-policy.pdf — 6/6 verified, Lemon confirmed
 - 023 — Second policy URI — CLOSED — RUN + SYNTHESIS + general-consumer-policy.pdf — generic consumer policy, not Lemon
+- 025 — Operator × template mapping — CLOSED — RUN + SYNTHESIS + raw — 342 disputes, 11 senders, 51% retail
 
 ## Documentation
 
@@ -95,8 +96,8 @@
 
 ## Что не сделано
 
+- Run 026 (temporal dynamics) не выполнен.
 - KLEROS-CONTEXT-v0.1 не обновлён до v0.2.
-- Оператор-шаблон mapping не сделан.
 - Resource Fit не начат.
 - field/003 — расхождение MS-нумерации Grok
   зафиксировано, но причина UNKNOWN.
