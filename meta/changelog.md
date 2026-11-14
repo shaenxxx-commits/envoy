@@ -477,3 +477,18 @@
   Основание: Next Observation Run 026.
   Открыто: либо on-chain funding analysis 0xe66f7f8a,
   либо принять UNKNOWN и оценить поле как есть.
+
+## field/028-kleros-field-closure/
+
+- 2026-11-14 — Run 028 закрыт.
+  RUN.md, SYNTHESIS.md, REVISIT-PLAN.md.
+  Kleros V2 через DisputeResolver закрыт как активное
+  ресурсное поле. Остаётся мониторинговым.
+  Основание: 27 runs, поле мало, концентрировано,
+  тренд вниз после пика сентября 2026.
+  Weak for resources, но модельно ценно (Mendoza —
+  первый пилот блокчейн-арбитража в госсистеме).
+  Revisit: 2027-02 (3 мес), 2027-05 (6 мес) если нет
+  триггеров. Baseline: 342 disputes, 11 senders.
+  Следующее: Run 029 — field selection для нового поля
+  (UDRP, domain disputes, new TLD).

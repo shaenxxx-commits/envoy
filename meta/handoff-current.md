@@ -9,10 +9,10 @@
 
 ## CURRENT STATE
 
-    HEAD: 5c91cef (main = origin/main)
-    ACTIVE PHASE: research-interpretation
+    HEAD: d26c0e2 (main = origin/main)
+    ACTIVE PHASE: field-selection
     STATUS: open
-    LAST COMPLETED: Run 027 (external search 0xe66f7f8a — UNKNOWN)
+    LAST COMPLETED: Run 028 (Kleros field CLOSED, monitoring scheduled)
     WORKING HYPOTHESES:
       - On-chain sensor V2 рабочий из nova (Runs 005-020).
       - 300 disputes через DisputeResolver.
@@ -38,15 +38,15 @@
       - Phase 4 (filter assessment) не оформлена.
       - docs/ROLES-v0.1.md — STATUS: PROVISIONAL.
     PENDING DECISION:
-      - Архитектор: funding analysis 0xe66f7f8a ИЛИ
-        принять UNKNOWN и оценить поле как есть.
-      - KLEROS-CONTEXT v0.1 → v0.2 (отложено).
-      - Проверка других arbitrable (on-chain expansion).
-    LAST RESPONSE NUMBER: MS262 (обновлять по каждому ответу)
+      - Run 029: field selection для нового поля.
+      - Кандидаты: UDRP, specific domain types, new TLD.
+      - Kleros revisit: 2027-02 / 2027-05 (см.
+        field/028-kleros-field-closure/REVISIT-PLAN.md).
+    LAST RESPONSE NUMBER: MS264 (обновлять по каждому ответу)
 
 ## Repository
 
-- Envoy: 5c91cef (main = origin/main)
+- Envoy: d26c0e2 (main = origin/main)
 - LAB (external source, метод координации):
   3abc90b (main-working)
 
@@ -78,6 +78,7 @@
 - 025 — Operator × template mapping — CLOSED — RUN + SYNTHESIS + raw — 342 disputes, 11 senders, 51% retail
 - 026 — Temporal dynamics — CLOSED — RUN + SYNTHESIS + COMMANDS — burst-driven, single-operator campaign
 - 027 — External search 0xe66f7f8a — CLOSED — RUN + SYNTHESIS + COMMANDS — UNKNOWN (negative result)
+- 028 — Kleros field closure — CLOSED — RUN + SYNTHESIS + REVISIT-PLAN — field closed, monitoring
 
 ## Documentation
 
@@ -100,9 +101,10 @@
 
 ## Что не сделано
 
-- 0xe66f7f8a не идентифицирован (UNKNOWN).
-- KLEROS-CONTEXT-v0.1 не обновлён до v0.2.
-- Resource Fit не начат.
+- Новое поле не выбрано (Run 029).
+- 0xe66f7f8a не идентифицирован (Kleros, UNKNOWN).
+- KLEROS-CONTEXT-v0.1 не обновлён до v0.2
+  (отложено до revisit).
 - field/003 — расхождение MS-нумерации Grok
   зафиксировано, но причина UNKNOWN.
 
