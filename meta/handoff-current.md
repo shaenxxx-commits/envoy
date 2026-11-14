@@ -9,10 +9,10 @@
 
 ## CURRENT STATE
 
-    HEAD: 249c996 (main = origin/main)
+    HEAD: 5c91cef (main = origin/main)
     ACTIVE PHASE: research-interpretation
     STATUS: open
-    LAST COMPLETED: Run 026 (temporal dynamics, single-operator campaign)
+    LAST COMPLETED: Run 027 (external search 0xe66f7f8a — UNKNOWN)
     WORKING HYPOTHESES:
       - On-chain sensor V2 рабочий из nova (Runs 005-020).
       - 300 disputes через DisputeResolver.
@@ -38,14 +38,15 @@
       - Phase 4 (filter assessment) не оформлена.
       - docs/ROLES-v0.1.md — STATUS: PROVISIONAL.
     PENDING DECISION:
-      - Run 027: external search — идентификация 0xe66f7f8a.
+      - Архитектор: funding analysis 0xe66f7f8a ИЛИ
+        принять UNKNOWN и оценить поле как есть.
       - KLEROS-CONTEXT v0.1 → v0.2 (отложено).
       - Проверка других arbitrable (on-chain expansion).
-    LAST RESPONSE NUMBER: MS260 (обновлять по каждому ответу)
+    LAST RESPONSE NUMBER: MS262 (обновлять по каждому ответу)
 
 ## Repository
 
-- Envoy: 249c996 (main = origin/main)
+- Envoy: 5c91cef (main = origin/main)
 - LAB (external source, метод координации):
   3abc90b (main-working)
 
@@ -76,6 +77,7 @@
 - 023 — Second policy URI — CLOSED — RUN + SYNTHESIS + general-consumer-policy.pdf — generic consumer policy, not Lemon
 - 025 — Operator × template mapping — CLOSED — RUN + SYNTHESIS + raw — 342 disputes, 11 senders, 51% retail
 - 026 — Temporal dynamics — CLOSED — RUN + SYNTHESIS + COMMANDS — burst-driven, single-operator campaign
+- 027 — External search 0xe66f7f8a — CLOSED — RUN + SYNTHESIS + COMMANDS — UNKNOWN (negative result)
 
 ## Documentation
 
@@ -98,7 +100,7 @@
 
 ## Что не сделано
 
-- Run 027 (external search 0xe66f7f8a) не выполнен.
+- 0xe66f7f8a не идентифицирован (UNKNOWN).
 - KLEROS-CONTEXT-v0.1 не обновлён до v0.2.
 - Resource Fit не начат.
 - field/003 — расхождение MS-нумерации Grok

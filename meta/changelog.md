@@ -462,3 +462,18 @@
   Основание: Next Observation Run 025.
   Открыто: идентификация 0xe66f7f8a (Run 027,
   external search).
+
+## field/027-external-search-e66f/
+
+- 2026-11-14 — Run 027 закрыт.
+  RUN.md, SYNTHESIS.md, COMMANDS.md.
+  Внешний поиск идентификации 0xe66f7f8a.
+  Результат: UNKNOWN. EOA не идентифицирован.
+  7 поисковых запросов, все нулевые по адресу.
+  Косвенно: Lemon Help Center подтверждает процесс
+  "Reclamo vía Kleros"; Lemon вырос до 5.5M
+  пользователей (август 2026).
+  Негативный результат зафиксирован.
+  Основание: Next Observation Run 026.
+  Открыто: либо on-chain funding analysis 0xe66f7f8a,
+  либо принять UNKNOWN и оценить поле как есть.
